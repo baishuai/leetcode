@@ -1,7 +1,5 @@
 package p045
 
-import "fmt"
-
 /**
 Given an array of non-negative integers, you are initially
  positioned at the first index of the array.

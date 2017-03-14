@@ -1,7 +1,6 @@
 package p083
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -15,7 +14,6 @@ func test(t *testing.T, head, exp *ListNode) {
 		if exp.Val != ans.Val {
 			t.Fatal("error answer squence")
 		}
-		fmt.Println(ans.Val)
 		exp = exp.Next
 		ans = ans.Next
 	}

@@ -12,7 +12,6 @@ func TestRandom(t *testing.T) {
 		count--
 		dividend = rand.Int()
 		divisor = rand.Int()
-		t.Log(count, dividend, divisor)
 		if ans := divide(dividend, divisor); divisor != 0 && ans != dividend/divisor {
 			t.Error("error answer", dividend, divisor, dividend/divisor)
 		}

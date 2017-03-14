@@ -2,12 +2,10 @@ package p048
 
 import (
 	"testing"
-	"fmt"
 )
 
 func test(t *testing.T, matrix [][]int, exp [][]int) {
 	rotate(matrix)
-	fmt.Println(matrix)
 	if len(matrix) != len(exp) {
 		t.Fatal("error answer length")
 	}

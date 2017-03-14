@@ -1,6 +1,5 @@
 package p093
 
-import "fmt"
 
 /**
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.
@@ -41,7 +40,6 @@ func restoreIpAddresses(s string) []string {
 					copy(rbs[i+j+2:i+j+k+2], ss[i+j:i+j+k])
 					rbs[i+j+k+2] = '.'
 					copy(rbs[i+j+k+3:], ss[i+j+k:])
-					fmt.Println(string(rbs))
 					res = append(res, string(rbs))
 				}
 			}

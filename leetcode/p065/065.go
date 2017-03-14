@@ -1,6 +1,5 @@
 package p065
 
-import "fmt"
 
 /**
 Validate if a given string is numeric.
@@ -17,7 +16,6 @@ Note: It is intended for the problem statement to be ambiguous.
 
 func isNumber(s string) bool {
 	bs := []byte(s)
-	fmt.Println(s)
 	l, h := 0, len(bs)-1
 	for l <= h && bs[l] == ' ' {
 		l++

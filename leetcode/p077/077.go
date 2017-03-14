@@ -1,6 +1,5 @@
 package p077
 
-import "fmt"
 
 /**
 Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
@@ -36,7 +35,6 @@ func combine(n int, k int) [][]int {
 	for count > 0 {
 		onecase := make([]int, k)
 		copy(onecase, one)
-		fmt.Println(onecase)
 		res = append(res, onecase)
 		for i := k - 1; i >= 0; i-- {
 			if one[i] < (n - k + 1 + i) {

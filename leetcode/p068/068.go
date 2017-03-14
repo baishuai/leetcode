@@ -2,7 +2,6 @@ package p068
 
 import (
 	"bytes"
-	"fmt"
 )
 
 /**
@@ -65,7 +64,6 @@ func fullJustify(words []string, maxWidth int) []string {
 		}
 		l = h
 		res = append(res, buf.String())
-		fmt.Printf("'%s'\n", buf.String())
 	}
 	return res
 }

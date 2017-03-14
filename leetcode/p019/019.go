@@ -1,6 +1,5 @@
 package p019
 
-import "fmt"
 
 /**
 Given a linked list, remove the nth node from the end of list and return its head.
@@ -44,7 +43,6 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 		count--
 	}
 
-	fmt.Println(point.Val)
 	point.Next = point.Next.Next
 	return dummy.Next
 }

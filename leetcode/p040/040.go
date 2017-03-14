@@ -1,7 +1,6 @@
 package p040
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -48,7 +47,6 @@ func combinationSum2(candidates []int, target int) [][]int {
 		}
 	}
 	comSum(0, 0, target)
-	fmt.Println(ans)
 
 	return ans
 }

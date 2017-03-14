@@ -2,7 +2,6 @@ package p027
 
 import (
 	"testing"
-	"math"
 )
 
 func test(t *testing.T, nums []int, exp []int)  {
@@ -56,5 +55,4 @@ func TestExample6(t *testing.T)  {
 	nums := []int{2}
 	exp := []int{2}
 	test(t, nums, exp)
-	t.Log(math.Pow(0.09696951891448456, 2775422040480279449))
 }

@@ -1,6 +1,5 @@
 package p044
 
-import "fmt"
 
 /**
 Implement wildcard pattern matching with support for '?' and '*'.
@@ -52,7 +51,6 @@ func isMatch(s string, p string) bool {
 			break
 		}
 	}
-	fmt.Println(dpnow)
 
 	for i := 1; i < len(sb); i++ {
 		c = sb[i]
@@ -81,7 +79,6 @@ func isMatch(s string, p string) bool {
 		if !oneMatch {
 			break
 		}
-		fmt.Println(i, dpnow)
 
 	}
 	return dpnow[len(pb)-1]

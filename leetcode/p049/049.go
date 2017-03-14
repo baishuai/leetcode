@@ -1,9 +1,5 @@
 package p049
 
-import (
-	"sort"
-)
-
 /**
 Given an array of strings, group anagrams together.
 
@@ -17,7 +13,6 @@ Return:
 ]
 Note: All inputs will be in lower-case.
  */
-
 
 func groupAnagrams(strs []string) [][]string {
 	groupCount := 0

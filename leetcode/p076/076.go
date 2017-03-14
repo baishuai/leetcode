@@ -1,6 +1,5 @@
 package p076
 
-import "fmt"
 
 /**
 Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
@@ -57,7 +56,6 @@ func minWindow(s string, t string) string {
 		if hitCounts == len(t) && (h-l) < mLen {
 			ml, mh = l, h
 			mLen = h - l
-			fmt.Println("find", l, h, string([]byte(s)[l:h]))
 		}
 		if mh-ml == len(t) {
 			break

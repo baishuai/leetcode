@@ -1,7 +1,6 @@
 package p025
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -16,7 +15,6 @@ func Test2(t *testing.T) {
 		if exp.Val != ans.Val {
 			t.Fatal("error answer squence")
 		}
-		fmt.Println(ans.Val)
 		exp = exp.Next
 		ans = ans.Next
 	}

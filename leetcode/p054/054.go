@@ -1,6 +1,5 @@
 package p054
 
-import "fmt"
 
 /**
 Given a matrix of m x n elements (m rows, n columns),
@@ -32,9 +31,7 @@ func spiralOrder(matrix [][]int) []int {
 	total := m * n
 	i, j, dest := 0, 0, 0
 	for cnt < total {
-		fmt.Println(m, n)
 		for dest = j + n; j < dest; j++ {
-			fmt.Println("r", i, j, matrix[i][j])
 			res[cnt] = matrix[i][j]
 			cnt++
 		}
@@ -44,7 +41,6 @@ func spiralOrder(matrix [][]int) []int {
 		j--
 		i++
 		for dest = i + (m - 1); i < dest; i++ {
-			fmt.Println("d", i, j, matrix[i][j])
 			res[cnt] = matrix[i][j]
 			cnt++
 		}
@@ -54,7 +50,6 @@ func spiralOrder(matrix [][]int) []int {
 		i--
 		j--
 		for dest = j - (n - 1); j > dest; j-- {
-			fmt.Println("l", i, j, matrix[i][j])
 			res[cnt] = matrix[i][j]
 			cnt++
 		}
@@ -64,7 +59,6 @@ func spiralOrder(matrix [][]int) []int {
 		j++
 		i--
 		for dest = i - (m - 2); i > dest; i-- {
-			fmt.Println("u", i, j, matrix[i][j])
 			res[cnt] = matrix[i][j]
 			cnt++
 		}

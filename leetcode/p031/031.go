@@ -2,7 +2,6 @@ package p031
 
 import (
 	"sort"
-	"fmt"
 )
 
 /**
@@ -40,7 +39,6 @@ func nextPermutation(nums []int) {
 			//找到刚好大一点的 then swap
 			reverse(j + 1)
 			find := sort.SearchInts(nums[j+1:], nums[j]+1) + j + 1
-			fmt.Println(nums, nums[j+1:], j, nums[j], find)
 			nums[j], nums[find] = nums[find], nums[j]
 			break
 		}

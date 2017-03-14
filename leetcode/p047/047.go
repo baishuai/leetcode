@@ -1,7 +1,6 @@
 package p047
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -56,6 +55,5 @@ func permute(nums []int) [][]int {
 
 	for nextPermute() {
 	}
-	fmt.Println(ans)
 	return ans
 }

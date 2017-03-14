@@ -2,7 +2,6 @@ package p021
 
 import (
 	"testing"
-	"fmt"
 )
 
 func TestContact(t *testing.T) {
@@ -30,7 +29,6 @@ func TestSame(t *testing.T) {
 		if ans.Val != 1 {
 			t.Fatalf("error answer, %v", ans)
 		}
-		fmt.Println(ans.Val)
 		count ++
 		ans = ans.Next
 	}

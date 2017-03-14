@@ -1,6 +1,5 @@
 package p127
 
-import "fmt"
 
 /**
 Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
@@ -32,7 +31,6 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	}
 outer:
 	for len(bfsQueue) > 0 {
-		fmt.Println(bfsQueue)
 		preBfsQueue := bfsQueue
 		bfsQueue = make([]string, 0)
 		length++

@@ -2,7 +2,6 @@ package p099
 
 import (
 	"testing"
-	"fmt"
 )
 
 func cmpTree(a, b *TreeNode) bool {
@@ -20,7 +19,6 @@ func cmpTree(a, b *TreeNode) bool {
 
 func test(t *testing.T, errbst, exp *TreeNode) {
 	recoverTree(errbst)
-	fmt.Println(errbst)
 	if !cmpTree(errbst, exp) {
 		t.Error("error recover")
 	}
