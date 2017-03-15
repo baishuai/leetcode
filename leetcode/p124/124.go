@@ -1,6 +1,5 @@
 package p124
 
-import "fmt"
 
 /**
 Given a binary tree, find the maximum path sum.
@@ -54,7 +53,6 @@ func maxPathSum(root *TreeNode) int {
 		right := maxTraversal(node.Right)
 
 		singleHand := node.Val + max(left, right)
-		fmt.Println(node.Val, left, right, singleHand, maxPath)
 		if left+right+node.Val > maxPath {
 			maxPath = left + right + node.Val
 		}
