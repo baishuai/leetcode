@@ -25,26 +25,27 @@ func numDistinct(s string, t string) int {
 
 	dpPre := make([]int, len(s))
 	dpNow := make([]int, len(s))
-	for j := 0; j < len(s); j++ {
-		dpNow[j] = 1
+	if t[0] == s[0] {
+		dpNow[0] = 1
 	}
-	for i := 0; i < len(t); i++ {
-		dpNow, dpPre = dpPre, dpNow
-		tc := t[i]
-		if s[0] == tc && i == 0 {
-			dpNow[0] = 1
-		} else {
-			dpNow[0] = 0
+	for j := 1; j < len(s); j++ {
+		dpNow[j] = dpNow[j-1]
+		if t[0] == s[j] {
+			dpNow[j]++
 		}
-		for j := 1; j < len(s); j++ {
+	}
+	fmt.Println(dpNow)
+	for i := 1; i < len(t); i++ {
+		dpNow, dpPre = dpPre, dpNow
+		dpNow[i-1] = 0
+		tc := t[i]
+		for j := i; j < len(s); j++ {
 			if s[j] == tc {
 				dpNow[j] = dpNow[j-1] + dpPre[j-1]
 			} else {
 				dpNow[j] = dpNow[j-1]
 			}
 		}
-		fmt.Println(dpNow)
-
 	}
 	return dpNow[len(s)-1]
 }

@@ -28,3 +28,9 @@ func TestExtra2(t *testing.T) {
 		t.Fatal(num, 3)
 	}
 }
+func TestExtra3(t *testing.T) {
+	num := numDistinct("ddd", "ddd")
+	if num != 1 {
+		t.Fatal(num, 1)
+	}
+}
