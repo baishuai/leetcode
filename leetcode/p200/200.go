@@ -29,9 +29,9 @@ func numIslands(grid [][]byte) int {
 		if p == q {
 			return
 		}
-		if (rank[p] < rank[q]) {
+		if rank[p] < rank[q] {
 			id[p] = q
-		} else if (rank[p] > rank[q]) {
+		} else if rank[p] > rank[q] {
 			id[q] = p
 		} else {
 			id[q] = p
