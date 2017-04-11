@@ -1,6 +1,5 @@
 package p149
 
-import "fmt"
 
 /**
 Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
@@ -73,7 +72,6 @@ func maxPoints(points []Point) int {
 			}
 		}
 		maxp += samep
-		fmt.Println(hm, maxp, samex)
 
 		result = max(result, maxp)
 		result = max(result, samex)
