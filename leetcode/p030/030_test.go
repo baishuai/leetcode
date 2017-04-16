@@ -54,7 +54,6 @@ func TestDebug3(t *testing.T) {
 	s := "wordgoodgoodgoodbestword"
 	words := []string{"word", "good", "best", "good"}
 	ans := findSubstring(s, words)
-	t.Log("len", len(ans), ans)
 	if len(ans) != 1 {
 		t.Fatal("error answer length", len(ans))
 	}
@@ -68,7 +67,6 @@ func TestDebug4(t *testing.T) {
 	s := "cbaacacbaa"
 	words := []string{"cb","aa"}
 	ans := findSubstring(s, words)
-	t.Log("len", len(ans), ans)
 	if len(ans) != 2 {
 		t.Fatal("error answer length", len(ans))
 	}
