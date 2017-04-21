@@ -85,44 +85,14 @@ func Constructor() MedianFinder {
 }
 
 func (this *MedianFinder) AddNum(num int) {
-	if this.maxHeap.Empty() {
-		this.maxHeap.Insert(num)
-	} else if this.minHeap.Empty() {
-		max := this.maxHeap.Max()
-		if max <= num {
-			this.minHeap.Insert(-num)
-		} else {
-			this.minHeap.Insert(-max)
-			this.maxHeap.DelMax()
-			this.maxHeap.Insert(num)
-		}
-	} else {
-		if len(this.maxHeap.pq) == len(this.minHeap.pq) {
-			max := this.maxHeap.Max()
-			if num <= max {
-				this.maxHeap.Insert(num)
-			} else {
-				this.minHeap.Insert(-num)
-			}
-		} else if len(this.maxHeap.pq) < len(this.minHeap.pq) {
-			min := - this.minHeap.Max()
-			if num <= min {
-				this.maxHeap.Insert(num)
-			} else {
-				this.maxHeap.Insert(min)
-				this.minHeap.DelMax()
-				this.minHeap.Insert(-num)
-			}
-		} else {
-			max := this.maxHeap.Max()
-			if num <= max {
-				this.minHeap.Insert(-max)
-				this.maxHeap.DelMax()
-				this.maxHeap.Insert(num)
-			} else {
-				this.minHeap.Insert(-num)
-			}
-		}
+	this.maxHeap.Insert(num)
+	max := this.maxHeap.Max()
+	this.minHeap.Insert(-max)
+	this.maxHeap.DelMax()
+	if len(this.maxHeap.pq) < len(this.minHeap.pq) {
+		min := - this.minHeap.Max()
+		this.maxHeap.Insert(min)
+		this.minHeap.DelMax()
 	}
 }
 
