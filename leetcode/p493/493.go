@@ -1,5 +1,9 @@
 package p493
 
+import (
+	"sort"
+)
+
 /**
 Given an array nums, we call (i, j) an important reverse pair if i < j and nums[i] > 2*nums[j].
 
@@ -79,12 +83,36 @@ func (t *bsTree) Insert(v int) {
 	}
 }
 
-func reversePairs(nums []int) int {
-	res := 0
-	bst := bsTree{}
-	for i := len(nums) - 1; i >= 0; i-- {
-		res += bst.Search(nums[i])
-		bst.Insert(nums[i] * 2)
+func mergeSort(nums, helper []int, start, end int) int {
+	if start >= end {
+		return 0
 	}
-	return res
+	mid := start + (end-start)/2
+	cnt := mergeSort(nums, helper, start, mid) + mergeSort(nums, helper, mid+1, end)
+
+	copy(helper, nums[start:mid+1])
+	ix, ls, rs := start, start, mid+1
+	offset := 0
+	for ix <= end {
+		if ls > mid || (rs <= end && helper[ls-start] >= nums[rs]) {
+			if start+offset <= mid {
+				find := sort.SearchInts(helper[offset:mid+1-start], nums[rs]*2+1)
+				cnt += mid + 1 - (start + offset) - find
+				offset += find
+			}
+			nums[ix] = nums[rs]
+			ix++
+			rs++
+		} else {
+			nums[ix] = helper[ls-start]
+			ix++
+			ls++
+		}
+	}
+	return cnt
+}
+
+func reversePairs(nums []int) int {
+	helper := make([]int, len(nums)/2+1)
+	return mergeSort(nums, helper, 0, len(nums)-1)
 }
