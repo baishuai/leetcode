@@ -16,19 +16,20 @@ As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
 return its length 5.
  */
 
+func wordsDiff(a, b string) (res int) {
+	for i := 0; i < len(a); i++ {
+		if a[i] != b[i] {
+			res++
+		}
+	}
+	return res
+}
+
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	//BFS
 	length := 1
 	bfsQueue := []string{beginWord}
 
-	wordsDiff := func(a, b string) (res int) {
-		for i := 0; i < len(a); i++ {
-			if a[i] != b[i] {
-				res++
-			}
-		}
-		return res
-	}
 outer:
 	for len(bfsQueue) > 0 {
 		preBfsQueue := bfsQueue
