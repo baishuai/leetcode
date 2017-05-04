@@ -1,8 +1,5 @@
 package p148
 
-import (
-	"fmt"
-)
 
 /**
  * Definition for singly-linked list.
@@ -33,7 +30,6 @@ func sortList(head *ListNode) *ListNode {
 
 	quick = slow.Next
 	slow.Next = nil
-	fmt.Println(slow.Val)
 	return mergeTwoLists(sortList(head.Next), sortList(quick))
 }
 

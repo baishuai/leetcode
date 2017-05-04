@@ -1,6 +1,5 @@
 package p115
 
-import "fmt"
 
 /**
 Given a string S and a string T, count the number of distinct subsequences of T in S.
@@ -34,7 +33,6 @@ func numDistinct(s string, t string) int {
 			dpNow[j]++
 		}
 	}
-	fmt.Println(dpNow)
 	for i := 1; i < len(t); i++ {
 		dpNow, dpPre = dpPre, dpNow
 		dpNow[i-1] = 0

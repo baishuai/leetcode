@@ -1,6 +1,5 @@
 package p084
 
-import "fmt"
 
 /**
 Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
@@ -82,6 +81,5 @@ func largestRectangleArea_Slow(heights []int) int {
 		}
 	}
 
-	fmt.Println(heights, minIndex)
 	return max(len(heights)*min, largestRectangleArea_Slow(heights[:minIndex]), largestRectangleArea_Slow(heights[minIndex+1:]))
 }

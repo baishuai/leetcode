@@ -1,6 +1,5 @@
 package p146
 
-import "fmt"
 
 /**
 Design and implement a data structure for Least Recently Used (LRU) cache.
@@ -53,7 +52,6 @@ func (this *LRUCache) Get(key int) int {
 		v.next.prev = v.prev
 		this.insertAfterHead(v)
 	}
-	this.printList()
 	return ans
 }
 
@@ -62,13 +60,6 @@ func (this *LRUCache) insertAfterHead(node *DLinkNode) {
 	node.prev = this.head
 	this.head.next.prev = node
 	this.head.next = node
-}
-
-func (this *LRUCache) printList() {
-	for iter := this.head.next; iter != this.tail; iter = iter.next {
-		fmt.Printf("(%d,%d) ", iter.key, iter.val)
-	}
-	fmt.Println()
 }
 
 func (this *LRUCache) Put(key int, value int) {
@@ -92,7 +83,6 @@ func (this *LRUCache) Put(key int, value int) {
 		this.insertAfterHead(node)
 		this.hm[key] = node
 	}
-	this.printList()
 }
 
 /**

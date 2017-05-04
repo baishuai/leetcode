@@ -2,11 +2,6 @@ package p115
 
 import "testing"
 
-func TestExample(t *testing.T) {
-	t.Log(numDistinct("rbbbt", "rbbt"))
-	t.Log(numDistinct("rbt", "rbbt"))
-	t.Log(numDistinct("", "rbbt"))
-}
 
 func TestExtra0(t *testing.T) {
 	num := numDistinct("aacaacca", "ca")

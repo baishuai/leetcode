@@ -1,6 +1,5 @@
 package p162
 
-import "fmt"
 
 /**
 A peak element is an element that is greater than its neighbors.
@@ -15,7 +14,6 @@ For example, in array [1, 2, 3, 1], 3 is a peak element and your function should
  */
 
 func findPeadElementWithOffset(offset int, nums []int) int {
-	fmt.Println(offset, nums)
 	length := len(nums)
 	if length == 0 {
 		return -1
