@@ -320,7 +320,6 @@
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)| [Go](./algorithms/p316/316.go) |Hard |
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)| [Go](./algorithms/p315/315.go) |Hard |
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons)| [Go](./algorithms/p312/312.go) |Hard |
-
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)| [Go](./algorithms/p307/307.go) |Medium |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)| [Go](./algorithms/p301/301.go) |Hard |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)| [Go](./algorithms/p300/300.go) |Medium |
