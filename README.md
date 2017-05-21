@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 237/531
+完成进度 238/531
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -260,7 +260,6 @@
 
 <!--|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)| [Go](./algorithms/p151/151.go) |Medium |-->
 
-<!--|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)| [Go](./algorithms/p166/166.go) |Medium |-->
 <!--|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design)| [Go](./algorithms/p170/170.go) |Easy |-->
 
 <!--|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)| [Go](./algorithms/p161/161.go) |Medium |-->
@@ -360,6 +359,7 @@
 |169|[Majority Element](https://leetcode.com/problems/majority-element)| [Go](./algorithms/p169/169.go) |Easy |
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)| [Go](./algorithms/p168/168.go) |Easy |
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)| [Go](./algorithms/p167/167.go) |Easy |
+|166|[Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)| [Go](./algorithms/p166/166.go) |Medium |
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)| [Go](./algorithms/p165/165.go) |Medium |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap)| [Go](./algorithms/p164/164.go) |Hard |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)| [Go](./algorithms/p162/162.go) |Medium |
