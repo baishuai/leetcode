@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 239/535
+完成进度 240/535
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -263,7 +263,6 @@
 <!--|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design)| [Go](./algorithms/p170/170.go) |Easy |-->
 
 <!--|161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance)| [Go](./algorithms/p161/161.go) |Medium |-->
-<!--|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)| [Go](./algorithms/p160/160.go) |Easy |-->
 <!--|159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)| [Go](./algorithms/p159/159.go) |Hard |-->
 <!--|158|[Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)| [Go](./algorithms/p158/158.go) |Hard |-->
 <!--|157|[Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4)| [Go](./algorithms/p157/157.go) |Easy |-->
@@ -366,6 +365,7 @@
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers)| [Go](./algorithms/p165/165.go) |Medium |
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap)| [Go](./algorithms/p164/164.go) |Hard |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)| [Go](./algorithms/p162/162.go) |Medium |
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)| [Python](./algorithms/p160/160.py) |Easy |
 |155|[Min Stack](https://leetcode.com/problems/min-stack)| [Go](./algorithms/p155/155.go) |Easy |
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)| [Go](./algorithms/p154/154.go) |Hard |
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)| [Go](./algorithms/p153/153.go) |Medium |
