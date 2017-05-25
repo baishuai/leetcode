@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 241/535
+完成进度 242/535
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -257,7 +257,6 @@
 <!--|186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)| [Go](./algorithms/p186/186.go) |Medium |-->
 <!--|173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)| [Go](./algorithms/p173/173.go) |Medium |-->
 
-<!--|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)| [Go](./algorithms/p151/151.go) |Medium |-->
 
 <!--|170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design)| [Go](./algorithms/p170/170.go) |Easy |-->
 
@@ -370,6 +369,7 @@
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)| [Go](./algorithms/p154/154.go) |Hard |
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)| [Go](./algorithms/p153/153.go) |Medium |
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)| [Go](./algorithms/p152/152.go) |Medium |
+|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)| [Python](./algorithms/p151/151.py) |Medium |
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)| [Go](./algorithms/p150/150.go) |Medium |
 |149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)| [Go](./algorithms/p149/149.go) |Hard |
 |148|[Sort List](https://leetcode.com/problems/sort-list)| [Go](./algorithms/p148/148.go) |Medium |
