@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 243/535
+完成进度 244/535
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -91,7 +91,6 @@
 
 <!--|471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)| [Go](./algorithms/p471/471.go) |Hard |-->
 <!--|469|[Convex Polygon](https://leetcode.com/problems/convex-polygon)| [Go](./algorithms/p469/469.go) |Medium |-->
-<!--|468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)| [Go](./algorithms/p468/468.go) |Medium |-->
 <!--|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)| [Go](./algorithms/p467/467.go) |Medium |-->
 
 
@@ -293,6 +292,7 @@
 |480|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median)| [Go](./algorithms/p480/480.go) |Hard |
 |476|[Number Complement](https://leetcode.com/problems/number-complement)| [Go](./algorithms/p476/476.go) |Easy |
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words)| [Go](./algorithms/p472/472.go) |Hard |
+|468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)| [Go](./algorithms/p468/468.go) |Medium |
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)| [Go](./algorithms/p466/466.go) |Hard |
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)| [Go](./algorithms/p461/461.go) |Easy |
 |460|[LFU Cache](https://leetcode.com/problems/lfu-cache)| [Go](./algorithms/p460/460.go) |Hard |
