@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 244/535
+完成进度 245/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -276,6 +276,7 @@
 
 | # | Title | Solution | Difficulty | Note |
 |---| ----- | -------- | ---------- | ---- |
+|600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [Go](./algorithms/p600/600.go) |Hard | 
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Go](./algorithms/p588/588.go) |Hard |
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence)| [Go](./algorithms/p587/587.go) |Hard |
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)| [Go](./algorithms/p581/581.go) |Easy |
