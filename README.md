@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 245/539
+完成进度 246/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -338,6 +338,7 @@
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome)| [Go](./algorithms/p214/214.go) |Hard |
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)| [Go](./algorithms/p213/213.go) |Medium |
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii)| [Go](./algorithms/p212/212.go) |Hard |
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)| [Go](./algorithms/p211/211.go) |Medium |
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)| [Go](./algorithms/p210/210.go) |Medium |
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)| [Go](./algorithms/p209/209.go) |Medium |
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)| [Go](./algorithms/p208/208.go) |Medium |
@@ -520,7 +521,6 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum)| [Go](./algorithms/p001/001.go) |Easy |
 
 
-<!--|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)| [Go](./algorithms/p211/211.go) |Medium |-->
 
 <!--|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)| [Go](./algorithms/p226/226.go) |Easy |
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)| [Go](./algorithms/p225/225.go) |Easy |-->
