@@ -1,7 +1,7 @@
 
 # leetcode 题解, go语言版
 
-完成进度 246/539
+完成进度 247/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -47,7 +47,6 @@
 <!--|526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement)| [Go](./algorithms/p526/526.go) |Medium |-->
 <!--|525|[Contiguous Array](https://leetcode.com/problems/contiguous-array)| [Go](./algorithms/p525/525.go) |Medium |-->
 <!--|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)| [Go](./algorithms/p524/524.go) |Medium |-->
-<!--|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)| [Go](./algorithms/p523/523.go) |Medium |-->
 <!--|522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii)| [Go](./algorithms/p522/522.go) |Medium |-->
 <!--|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i)| [Go](./algorithms/p521/521.go) |Easy |-->
 <!--|520|[Detect Capital](https://leetcode.com/problems/detect-capital)| [Go](./algorithms/p520/520.go) |Easy |-->
@@ -285,6 +284,7 @@
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii)| [Go](./algorithms/p552/552.go) |Hard |
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles)| [Go](./algorithms/p547/547.go) |Medium |
 |546|[Remove Boxes](https://leetcode.com/problems/remove-boxes)| [Go](./algorithms/p546/546.go) |Hard |
+|523|[Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)| [Go](./algorithms/p523/523.go) |Medium |
 |517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines)| [Go](./algorithms/p517/517.go) |Hard |
 |502|[IPO](https://leetcode.com/problems/ipo)| [Go](./algorithms/p502/502.go) |Hard |
 |493|[Reverse Pairs](https://leetcode.com/problems/reverse-pairs)| [Go](./algorithms/p493/493.go) |Hard |
