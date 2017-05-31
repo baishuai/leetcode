@@ -1,6 +1,8 @@
 
 # leetcode 题解, go语言版
 
+[![Build Status](https://travis-ci.org/baishuai/leetcode_go.svg?branch=master)](https://travis-ci.org/baishuai/leetcode_go)
+
 完成进度 248/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
