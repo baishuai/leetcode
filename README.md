@@ -3,6 +3,8 @@
 
 [![Build Status](https://travis-ci.org/baishuai/leetcode_go.svg?branch=master)](https://travis-ci.org/baishuai/leetcode_go)
 
+[![codecov](https://codecov.io/gh/baishuai/leetcode_go/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode_go)
+
 完成进度 248/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
