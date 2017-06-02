@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode_go/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode_go)
 
-完成进度 249/539
+完成进度 250/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -330,6 +330,7 @@
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)| [Go](./algorithms/p295/295.go) |Hard |
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators)| [Go](./algorithms/p282/282.go) |Hard |
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)| [Go](./algorithms/p273/273.go) |Hard |
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii)| [Go](./algorithms/p264/264.go) |Medium |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)| [Go](./algorithms/p239/239.go) |Hard |
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one)| [Go](./algorithms/p233/233.go) |Hard |
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)| [Go](./algorithms/p227/227.go) |Medium |
@@ -559,8 +560,7 @@
 <!--|267|[Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii)| [Go](./algorithms/p267/267.go) |Medium |-->
 <!--|266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation)| [Go](./algorithms/p266/266.go) |Easy |-->
 <!--|265|[Paint House II](https://leetcode.com/problems/paint-house-ii)| [Go](./algorithms/p265/265.go) |Hard |-->
-<!--|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii)| [Go](./algorithms/p264/264.go) |Medium |
-|263|[Ugly Number](https://leetcode.com/problems/ugly-number)| [Go](./algorithms/p263/263.go) |Easy |
+<!--|263|[Ugly Number](https://leetcode.com/problems/ugly-number)| [Go](./algorithms/p263/263.go) |Easy |
 |261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree)| [Go](./algorithms/p261/261.go) |Medium |
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii)| [Go](./algorithms/p260/260.go) |Medium |
 |259|[3Sum Smaller](https://leetcode.com/problems/3sum-smaller)| [Go](./algorithms/p259/259.go) |Medium |
