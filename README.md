@@ -329,6 +329,7 @@
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)| [Python](./algorithms/p297/297.py) |Hard |
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)| [Go](./algorithms/p295/295.go) |Hard |
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators)| [Go](./algorithms/p282/282.go) |Hard |
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)| [Go](./algorithms/p279/279.go) |Medium |
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)| [Go](./algorithms/p273/273.go) |Hard |
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii)| [Go](./algorithms/p264/264.go) |Medium |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)| [Go](./algorithms/p239/239.go) |Hard |
@@ -546,7 +547,6 @@
 <!--|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)| [Go](./algorithms/p283/283.go) |Easy |-->
 <!--|281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator)| [Go](./algorithms/p281/281.go) |Medium |-->
 <!--|280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort)| [Go](./algorithms/p280/280.go) |Medium |-->
-<!--|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares)| [Go](./algorithms/p279/279.go) |Medium |-->
 <!--|278|[First Bad Version](https://leetcode.com/problems/first-bad-version)| [Go](./algorithms/p278/278.go) |Easy |-->
 <!--|277|[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity)| [Go](./algorithms/p277/277.go) |Medium |-->
 <!--|276|[Paint Fence](https://leetcode.com/problems/paint-fence)| [Go](./algorithms/p276/276.go) |Easy |-->
