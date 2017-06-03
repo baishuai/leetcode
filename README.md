@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode_go/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode_go)
 
-完成进度 250/539
+完成进度 251/539
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -243,7 +243,6 @@
 <!--|306|[Additive Number](https://leetcode.com/problems/additive-number)| [Go](./algorithms/p306/306.go) |Medium |-->
 <!--|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii)| [Go](./algorithms/p305/305.go) |Hard |-->
 <!--|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)| [Go](./algorithms/p304/304.go) |Medium |-->
-<!--|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)| [Go](./algorithms/p303/303.go) |Easy |-->
 <!--|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)| [Go](./algorithms/p302/302.go) |Hard |-->
 
 
@@ -324,6 +323,7 @@
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)| [Go](./algorithms/p315/315.go) |Hard |
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons)| [Go](./algorithms/p312/312.go) |Hard |
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)| [Go](./algorithms/p307/307.go) |Medium |
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)| [Go](./algorithms/p303/303.go) |Easy |
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)| [Go](./algorithms/p301/301.go) |Hard |
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)| [Go](./algorithms/p300/300.go) |Medium |
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)| [Python](./algorithms/p297/297.py) |Hard |
