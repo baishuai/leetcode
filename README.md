@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode_go/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode_go)
 
-完成进度 252/539
+完成进度 264/543
 
 <!--|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |-->
 <!--|582|[Kill Process](https://leetcode.com/problems/kill-process)| [Go](./algorithms/p582/582.go) |Medium |-->
@@ -276,7 +276,11 @@
 
 | # | Title | Solution | Difficulty | Note |
 |---| ----- | -------- | ---------- | ---- |
+|609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system) | [Go](./algorithms/p609/609.go) |Medium | 
+|606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [Go](./algorithms/p606/606.go) |Easy | 
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Go](./algorithms/p605/605.go) |Easy | 
 |600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [Go](./algorithms/p600/600.go) |Hard | 
+|591|[Tag Validator](https://leetcode.com/problems/tag-validator/) | [Go](./algorithms/p591/591.go) |Hard | 
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Go](./algorithms/p588/588.go) |Hard |
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence)| [Go](./algorithms/p587/587.go) |Hard |
 |581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)| [Go](./algorithms/p581/581.go) |Easy |
