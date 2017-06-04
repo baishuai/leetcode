@@ -2,7 +2,7 @@ package p009
 
 /**
 Determine whether an integer is a palindrome. Do this without extra space.
- */
+*/
 
 func isPalindrome(x int) bool {
 	if x < 0 || (x != 0 && x%10 == 0) {

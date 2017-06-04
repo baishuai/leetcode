@@ -7,7 +7,7 @@ Divide two integers without using multiplication,
  division and mod operator.
 
 If it is overflow, return MAX_INT.
- */
+*/
 
 func absi64(x int64) int64 {
 	if x < 0 {
@@ -20,7 +20,7 @@ func absi64(x int64) int64 {
 
 func divide(dividend int, divisor int) int {
 
-	flag := (dividend > 0 ) == (divisor > 0)
+	flag := (dividend > 0) == (divisor > 0)
 	ans := int64(0)
 
 	dividend64 := absi64(int64(dividend))
@@ -51,7 +51,7 @@ func divide(dividend int, divisor int) int {
 		}
 	} else {
 		if !flag {
-			ans = - ans
+			ans = -ans
 		}
 	}
 	return int(ans)

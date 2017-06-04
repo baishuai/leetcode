@@ -27,7 +27,7 @@ Explanation:
 There are four ways to split nums into two subarrays.
 The best way is to split it into [7,2,5] and [10,8],
 where the largest sum among the two subarrays is only 18.
- */
+*/
 
 // returns subarrays count
 func splitArrayMax(nums []int64, sum int64) int {
@@ -48,7 +48,7 @@ func splitArrayMax(nums []int64, sum int64) int {
 			break
 		}
 		if idx < len(nums) {
-			cnt ++
+			cnt++
 			cntSum = nums[idx-1] + sum
 		}
 	}

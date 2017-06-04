@@ -14,7 +14,7 @@ For example:
     26 -> Z
     27 -> AA
     28 -> AB
- */
+*/
 
 func convertToTitle(n int) string {
 	var buf bytes.Buffer

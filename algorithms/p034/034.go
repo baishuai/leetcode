@@ -11,7 +11,7 @@ If the target is not found in the array, return [-1, -1].
 For example,
 Given [5, 7, 7, 8, 8, 10] and target value 8,
 return [3, 4].
- */
+*/
 
 func searchRange(nums []int, target int) []int {
 	ans := []int{-1, -1}
@@ -21,7 +21,7 @@ func searchRange(nums []int, target int) []int {
 	firstHit := -1
 	lo, hi, mid := 0, len(nums)-1, 0
 	for lo <= hi {
-		mid = (lo + hi ) >> 1
+		mid = (lo + hi) >> 1
 		if nums[mid] == target {
 			firstHit = mid
 			break

@@ -11,7 +11,7 @@ The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4.
 Note that there may be more than one LIS combination, it is only necessary for you to return the length.
 
 Your algorithm should run in O(n^2) complexity.
- */
+*/
 
 func lengthOfLIS(nums []int) int {
 	incSeq := make([]int, 0)

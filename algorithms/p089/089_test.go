@@ -19,13 +19,13 @@ func TestExample0(t *testing.T) {
 }
 
 func TestExample1(t *testing.T) {
-	test(t, 1, []int{0,1})
+	test(t, 1, []int{0, 1})
 }
 
 func TestExample2(t *testing.T) {
-	test(t, 2, []int{0,1,3,2})
+	test(t, 2, []int{0, 1, 3, 2})
 }
 
 func TestExample3(t *testing.T) {
-	test(t, 3, []int{0,1,3,2,6,7,5,4})
+	test(t, 3, []int{0, 1, 3, 2, 6, 7, 5, 4})
 }

@@ -10,13 +10,13 @@ Convert a non-negative integer to its english words representation.
 12345 -> "Twelve Thousand Three Hundred Forty Five"
 1234567 -> "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
 
- */
+*/
 
 func digitToWords(digit int) string {
 	word := ""
 	if digit >= 0 && digit < 10 {
 		word = []string{"Zero", "One", "Two", "Three", "Four",
-						"Five", "Six", "Seven", "Eight", "Nine"}[digit]
+			"Five", "Six", "Seven", "Eight", "Nine"}[digit]
 	}
 	return word
 }
@@ -25,7 +25,7 @@ func tenToWords(digit int) string {
 	word := ""
 	if digit > 0 && digit < 10 {
 		word = []string{"Zero", "Ten", "Twenty", "Thirty", "Forty",
-						"Fifty", "Sixty", "Seventy", "Eighty", "Ninety"}[digit]
+			"Fifty", "Sixty", "Seventy", "Eighty", "Ninety"}[digit]
 	}
 	return word
 }
@@ -35,7 +35,7 @@ func doubleDigitToWords(digit int) string {
 	word := ""
 	if digit >= 10 && digit < 20 {
 		word = []string{"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen",
-						"Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"}[digit-10]
+			"Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"}[digit-10]
 	}
 	return word
 }

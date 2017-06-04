@@ -27,7 +27,7 @@ func TestExample0(t *testing.T) {
 		&ListNode{1,
 			&ListNode{1,
 				&ListNode{2,
-						  &ListNode{3, nil}}}}},
+					&ListNode{3, nil}}}}},
 		&ListNode{2, &ListNode{3, nil}})
 }
 
@@ -41,7 +41,7 @@ func TestExtra0(t *testing.T) {
 							&ListNode{5,
 								&ListNode{6,
 									&ListNode{7,
-											  &ListNode{7, nil}}}}}}}}}},
+										&ListNode{7, nil}}}}}}}}}},
 		&ListNode{2, &ListNode{3, &ListNode{5, &ListNode{6, nil}}}})
 }
 

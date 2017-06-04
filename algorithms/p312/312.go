@@ -20,7 +20,7 @@ Return 167
 
     nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
    coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
- */
+*/
 
 func max(a, b int) int {
 	if a > b {
@@ -59,7 +59,7 @@ func burst(memo [][]int, nums []int, left, right int) int {
 	ans := 0
 	for i := left + 1; i < right; i++ {
 		ans = max(ans, nums[left]*nums[i]*nums[right]+
-			burst(memo, nums, left, i)+ burst(memo, nums, i, right))
+			burst(memo, nums, left, i)+burst(memo, nums, i, right))
 	}
 	memo[left][right] = ans
 	return ans

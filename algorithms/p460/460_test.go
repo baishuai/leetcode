@@ -1,8 +1,8 @@
 package p460
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestExample(t *testing.T) {

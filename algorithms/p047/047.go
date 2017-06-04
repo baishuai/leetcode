@@ -17,7 +17,7 @@ For example,
   [3,1,2],
   [3,2,1]
 ]
- */
+*/
 
 // 字典序全排列生成算法，更快的还有邻位对换法
 func permute(nums []int) [][]int {

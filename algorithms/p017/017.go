@@ -4,7 +4,7 @@ package p017
 Given a digit string, return all possible letter combinations that the number could represent.
 
 A mapping of digit to letters (just like on the telephone buttons) is given below.
- */
+*/
 
 var (
 	i2cMap = map[byte]string{
@@ -23,7 +23,6 @@ var (
 func letterCombinations(digits string) []string {
 	return bytesCombinations([]byte(digits))
 }
-
 
 func bytesCombinations(digits []byte) []string {
 	ans := make([]string, 0)

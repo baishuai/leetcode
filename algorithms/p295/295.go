@@ -19,7 +19,7 @@ addNum(2)
 findMedian() -> 1.5
 addNum(3)
 findMedian() -> 2
- */
+*/
 
 // a max heap and a min heap
 
@@ -90,7 +90,7 @@ func (this *MedianFinder) AddNum(num int) {
 	this.minHeap.Insert(-max)
 	this.maxHeap.DelMax()
 	if len(this.maxHeap.pq) < len(this.minHeap.pq) {
-		min := - this.minHeap.Max()
+		min := -this.minHeap.Max()
 		this.maxHeap.Insert(min)
 		this.minHeap.DelMax()
 	}

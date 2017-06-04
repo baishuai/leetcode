@@ -6,7 +6,7 @@ Given a string, determine if it is a palindrome, considering only alphanumeric c
 For example,
 "A man, a plan, a canal: Panama" is a palindrome.
 "race a car" is not a palindrome.
- */
+*/
 
 func isPalindrome(s string) bool {
 

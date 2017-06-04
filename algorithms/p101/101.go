@@ -16,7 +16,7 @@ But the following [1,2,2,null,3,null,3] is not:
   2   2
    \   \
    3    3
- */
+*/
 
 type TreeNode struct {
 	Val   int

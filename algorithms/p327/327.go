@@ -13,7 +13,7 @@ Example:
 Given nums = [-2, 5, -1], lower = -2, upper = 2,
 Return 3.
 The three ranges are : [0, 0], [2, 2], [0, 2] and their respective sums are: -2, -1, 2.
- */
+*/
 
 func countRangeSum(nums []int, lower int, upper int) int {
 	sums := make([]int, len(nums)+1)

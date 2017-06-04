@@ -20,7 +20,7 @@ Output: 3
 Note:
 The length of the given array will not exceed 50,000.
 All the numbers in the input array are in the range of 32-bit integer.
- */
+*/
 
 type bstNode struct {
 	val   int

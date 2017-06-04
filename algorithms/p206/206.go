@@ -2,7 +2,7 @@ package p206
 
 /**
 Reverse a singly linked list.
- */
+*/
 
 /**
  * Definition for singly-linked list.

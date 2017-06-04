@@ -16,7 +16,7 @@ Given the following 3x6 height map:
 ]
 
 Return 4.
- */
+*/
 
 type Cell struct {
 	height int

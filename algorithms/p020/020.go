@@ -1,13 +1,12 @@
 package p020
 
-
 /**
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
  determine if the input string is valid.
 
-The brackets must close in the correct order, "()" and "()[]{}" 
+The brackets must close in the correct order, "()" and "()[]{}"
  are all valid but "(]" and "([)]" are not.
- */
+*/
 
 //use stack
 
@@ -25,7 +24,7 @@ func isValid(s string) bool {
 		//fmt.Println(i, stack, stackLen)
 		if ok {
 			if stackLen > 0 && stack[stackLen-1] == v {
-				stackLen --
+				stackLen--
 			} else {
 				return false
 			}

@@ -6,7 +6,7 @@ A frog is crossing a river. The river is divided into x units and at each unit t
 Given a list of stones' positions (in units) in sorted ascending order, determine if the frog is able to cross the river by landing on the last stone. Initially, the frog is on the first stone and assume the first jump must be 1 unit.
 
 If the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units. Note that the frog can only jump in the forward direction.
- */
+*/
 
 func canCross(stones []int) bool {
 

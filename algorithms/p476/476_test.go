@@ -12,7 +12,7 @@ func Test476Example(t *testing.T) {
 	}
 }
 
-func Test476Cus(t *testing.T)  {
+func Test476Cus(t *testing.T) {
 	if ans := findComplement(21); ans != 10 {
 		t.Fatal("error answer", ans)
 	}

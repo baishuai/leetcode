@@ -15,7 +15,7 @@ nums1 = [1, 2]
 nums2 = [3, 4]
 
 The median is (2 + 3)/2 = 2.5
- */
+*/
 import "sort"
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
@@ -42,7 +42,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 			l2++
 		}
 
-		diff := (l1 + l2 + left ) - (r1 + r2 + right)
+		diff := (l1 + l2 + left) - (r1 + r2 + right)
 		//fmt.Println(l1, l2, left, r1, r2, right)
 		if diff < -1 {
 			//去右边找
@@ -62,7 +62,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 				next = nums1[l1]
 			}
 			if r2 > 0 {
-				if (r1 > 1 && next > nums2[l2] ) || r1 <= 1 {
+				if (r1 > 1 && next > nums2[l2]) || r1 <= 1 {
 					next = nums2[l2]
 				}
 			}

@@ -13,7 +13,7 @@ Given "egg", "add", return true.
 Given "foo", "bar", return false.
 
 Given "paper", "title", return true.
- */
+*/
 
 func isIsomorphic(s string, t string) bool {
 	if len(s) != len(t) {

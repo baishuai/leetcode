@@ -2,10 +2,10 @@ package p050
 
 /**
 Implement pow(x, n).
- */
+*/
 
 func myPow(x float64, n int) float64 {
-	if n == 0{
+	if n == 0 {
 		return 1
 	} else if n == 1 {
 		return x
@@ -16,12 +16,12 @@ func myPow(x float64, n int) float64 {
 	}
 	ans := myPow(x, n/2)
 	ans = ans * ans
-	if n % 2 != 0{
+	if n%2 != 0 {
 		ans = ans * x
 	}
 	if negtive {
 		return 1 / ans
-	}else {
+	} else {
 		return ans
 	}
 }

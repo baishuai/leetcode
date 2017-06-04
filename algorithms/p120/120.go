@@ -12,7 +12,7 @@ For example, given the following triangle
 ]
 The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
 
- */
+*/
 func min(a, b int) int {
 	if a > b {
 		return b

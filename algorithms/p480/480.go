@@ -23,7 +23,7 @@ Window position                Median
  1  3  -1  -3  5 [3  6  7]      6
 
 Therefore, return the median sliding window as [1,-1,-1,3,5,6].
- */
+*/
 
 type MaxPq struct {
 	pq []int
@@ -104,7 +104,7 @@ func medianSlidingWindow(nums []int, k int) []float64 {
 		n := nums[ix]
 		p := nums[ix-k]
 
-		ix ++
+		ix++
 		if n == p {
 			pushRes()
 			continue

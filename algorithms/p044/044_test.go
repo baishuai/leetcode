@@ -16,15 +16,15 @@ func TestExample(t *testing.T) {
 		t.Fatal("error answer")
 	}
 
-	if ! isMatch("aa", "a*") {
+	if !isMatch("aa", "a*") {
 		t.Fatal("error answer")
 	}
 
-	if ! isMatch("aa", "?*") {
+	if !isMatch("aa", "?*") {
 		t.Fatal("error answer")
 	}
 
-	if ! isMatch("ab", "?*") {
+	if !isMatch("ab", "?*") {
 		t.Fatal("error answer")
 	}
 
@@ -32,11 +32,11 @@ func TestExample(t *testing.T) {
 		t.Fatal("error answer")
 	}
 
-	if ! isMatch("ab", "?*") {
+	if !isMatch("ab", "?*") {
 		t.Fatal("error answer")
 	}
 
-	if ! isMatch("aad", "*") {
+	if !isMatch("aad", "*") {
 		t.Fatal("error answer")
 	}
 }
@@ -48,7 +48,7 @@ func TestAab(t *testing.T) {
 }
 
 func TestA_a(t *testing.T) {
-	if ! isMatch("aaa", "a*a") {
+	if !isMatch("aaa", "a*a") {
 		t.Fatal("error answer")
 	}
 }
@@ -66,7 +66,6 @@ func TestExtra1(t *testing.T) {
 		t.Fatal("error answer")
 	}
 }
-
 
 func TestExtra2(t *testing.T) {
 

@@ -56,7 +56,6 @@ func TestExtra5(t *testing.T) {
 	test(t, head, 0, exp)
 }
 
-
 func TestExtra6(t *testing.T) {
 	head := &ListNode{1, nil}
 	exp := &ListNode{1, nil}

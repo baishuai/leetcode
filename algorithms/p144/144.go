@@ -13,7 +13,7 @@ Given binary tree {1,#,2,3},
 return [1,2,3].
 
 Note: Recursive solution is trivial, could you do it iteratively?
- */
+*/
 
 /**
  * Definition for a binary tree node.

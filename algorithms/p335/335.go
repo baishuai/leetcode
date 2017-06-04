@@ -6,7 +6,7 @@ You are given an array x of n positive numbers. You start at point (0,0) and mov
  In other words, after each move your direction changes counter-clockwise.
 
 Write a one-pass algorithm with O(1) extra space to determine, if your path crosses itself, or not.
- */
+*/
 
 func isSelfCrossing(x []int) bool {
 	if len(x) < 4 {

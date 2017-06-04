@@ -12,7 +12,6 @@ func Test0(t *testing.T) {
 	test(t, 0, 0)
 }
 
-
 func Test1(t *testing.T) {
 	test(t, 1, 1)
 }

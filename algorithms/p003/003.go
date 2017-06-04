@@ -12,7 +12,7 @@ Given "bbbbb", the answer is "b", with the length of 1.
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 Subscribe to see which companies asked this question.
- */
+*/
 
 func lengthOfLongestSubstring(s string) int {
 	length := len(s)
@@ -35,7 +35,7 @@ func lengthOfLongestSubstring(s string) int {
 			continue
 		}
 		hmap[s[i]] = i
-		count ++;
+		count++
 	}
 	if count > max {
 		max = count

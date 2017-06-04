@@ -20,7 +20,7 @@ func removeDuplicateLetters(s string) string {
 	cnt := make([]int, 26)
 	visited := make([]bool, 26)
 	for _, v := range bs {
-		cnt[v-'a'] ++
+		cnt[v-'a']++
 	}
 	res := make([]byte, 0)
 	res = append(res, '-')

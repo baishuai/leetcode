@@ -10,7 +10,7 @@ Return the starting gas station's index if you can travel around the circuit onc
 
 Note:
 The solution is guaranteed to be unique.
- */
+*/
 
 func canCompleteCircuit(gas []int, cost []int) int {
 
@@ -29,7 +29,7 @@ func canCompleteCircuit(gas []int, cost []int) int {
 	index := 0
 	countGas := 0
 	for step > 1 {
-		index = (index + 1 ) % lens
+		index = (index + 1) % lens
 		countGas += gas[index]
 		if countGas < 0 {
 			if index == start {

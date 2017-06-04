@@ -20,7 +20,7 @@ isMatch("aa", ".*") → true
 isMatch("ab", ".*") → true
 isMatch("aab", "c*a*b") → true
 
- */
+*/
 
 func isMatch(s string, p string) bool {
 	return match([]byte(s), []byte(p))

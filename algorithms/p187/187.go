@@ -12,7 +12,7 @@ Given s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT",
 
 Return:
 ["AAAAACCCCC", "CCCCCAAAAA"].
- */
+*/
 
 type suffixArray [][]byte
 

@@ -1,6 +1,5 @@
 package p162
 
-
 /**
 A peak element is an element that is greater than its neighbors.
 
@@ -11,7 +10,7 @@ The array may contain multiple peaks, in that case return the index to any one o
 You may imagine that num[-1] = num[n] = -∞.
 
 For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
- */
+*/
 
 func findPeadElementWithOffset(offset int, nums []int) int {
 	length := len(nums)

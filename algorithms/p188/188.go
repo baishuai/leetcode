@@ -7,7 +7,7 @@ Design an algorithm to find the maximum profit. You may complete at most k trans
 
 Note:
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
- */
+*/
 
 func max(a, b int) int {
 	if a > b {
@@ -23,7 +23,7 @@ func maxProfit(k int, prices []int) int {
 		return 0
 	}
 
-	if (k >= length/2) {
+	if k >= length/2 {
 		mProfit := 0
 		for i := 1; i < len(prices); i++ {
 			diff := prices[i] - prices[i-1]

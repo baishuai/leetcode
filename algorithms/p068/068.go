@@ -24,7 +24,7 @@ Return the formatted lines as:
    "justification.  "
 ]
 Note: Each word is guaranteed not to exceed L in length.
- */
+*/
 
 func fullJustify(words []string, maxWidth int) []string {
 

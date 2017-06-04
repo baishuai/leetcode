@@ -11,7 +11,7 @@ Note: A word is defined as a character sequence consists of non-space characters
 For example,
 Given s = "Hello World",
 return 5.
- */
+*/
 func lengthOfLastWord(s string) int {
 	bss := []byte(s)
 	l := len(bss) - 1
@@ -19,10 +19,10 @@ func lengthOfLastWord(s string) int {
 	for l >= 0 {
 		if (bss[l] >= 'a' && bss[l] <= 'z') ||
 			(bss[l] >= 'A' && bss[l] <= 'Z') {
-			length ++
-			l --
+			length++
+			l--
 		} else if length == 0 {
-			l --
+			l--
 		} else {
 			break
 		}

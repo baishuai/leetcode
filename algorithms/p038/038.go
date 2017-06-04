@@ -14,7 +14,7 @@ The count-and-say sequence is the sequence of integers beginning as follows:
 Given an integer n, generate the nth sequence.
 
 Note: The sequence of integers will be represented as a string.
- */
+*/
 
 func countAndSay(n int) string {
 
@@ -27,7 +27,7 @@ func countAndSay(n int) string {
 		pc := pre[0]
 		for _, v := range pre {
 			if v == pc {
-				count ++
+				count++
 			} else {
 				bf.WriteByte(count + '0')
 				bf.WriteByte(pc)

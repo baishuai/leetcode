@@ -12,7 +12,7 @@ Return:
   ["bat"]
 ]
 Note: All inputs will be in lower-case.
- */
+*/
 
 func groupAnagrams(strs []string) [][]string {
 	groupCount := 0

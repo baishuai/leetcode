@@ -10,7 +10,7 @@ Dec(Key) - If Key's value is 1, remove it from the data structure. Otherwise dec
 GetMaxKey() - Returns one of the keys with maximal value. If no element exists, return an empty string "".
 GetMinKey() - Returns one of the keys with minimal value. If no element exists, return an empty string "".
 Challenge: Perform all these in O(1) time complexity.
- */
+*/
 
 type DlinkNode struct {
 	key  string
@@ -48,7 +48,7 @@ func Constructor() AllOne {
 	}
 }
 
-func (this*AllOne) insertBeforeTail(node *DlinkNode) {
+func (this *AllOne) insertBeforeTail(node *DlinkNode) {
 	node.next = this.tail
 	node.prev = this.tail.prev
 	node.prev.next = node

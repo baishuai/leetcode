@@ -6,7 +6,7 @@ Given an array with n objects colored red, white or blue, sort them so that obje
 
 Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
 
- */
+*/
 
 func sortColors(nums []int) {
 	i, j := 0, len(nums)-1

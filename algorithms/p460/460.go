@@ -12,7 +12,7 @@ put(key, value) - Set or insert the value if the key is not already present. Whe
 
 Follow up:
 Could you do both operations in O(1) time complexity?
- */
+*/
 
 type LinkMapNode struct {
 	val  int

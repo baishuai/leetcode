@@ -18,8 +18,8 @@ func TestOne(t *testing.T) {
 	}
 }
 
-func TestTwo(t *testing.T)  {
-	strs := []string{"qwertyu","qwertyuiop", "qwertgdfdssgf", "qwertfgnjhjh"}
+func TestTwo(t *testing.T) {
+	strs := []string{"qwertyu", "qwertyuiop", "qwertgdfdssgf", "qwertfgnjhjh"}
 	ans := longestCommonPrefix(strs)
 	if ans != "qwert" {
 		t.Fatal("error answer", ans)

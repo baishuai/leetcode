@@ -1,6 +1,5 @@
 package p065
 
-
 /**
 Validate if a given string is numeric.
 
@@ -12,7 +11,7 @@ Some examples:
 "2e10" => true
 Note: It is intended for the problem statement to be ambiguous.
  You should gather all requirements up front before implementing one.
- */
+*/
 
 func isNumber(s string) bool {
 	bs := []byte(s)

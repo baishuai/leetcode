@@ -4,7 +4,7 @@ package p069
 Implement int sqrt(int x).
 
 Compute and return the square root of x.
- */
+*/
 
 func mySqrt(x int) int {
 	if x < 0 {

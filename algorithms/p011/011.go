@@ -6,7 +6,7 @@ n vertical lines are drawn such that the two endpoints of line i is at (i, ai) a
 Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
 Note: You may not slant the container and n is at least 2.
- */
+*/
 
 func maxArea(height []int) int {
 	left, right := 0, len(height)-1
@@ -23,7 +23,7 @@ func maxArea(height []int) int {
 			right--
 			minHeight = rightV
 		}
-		area := minHeight * (1 + right - left )
+		area := minHeight * (1 + right - left)
 		//fmt.Println("Area", area)
 		if area > max {
 			max = area

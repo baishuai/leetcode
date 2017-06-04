@@ -11,7 +11,7 @@ words: ["foo", "bar"]
 
 You should return the indices: [0,9].
 (order does not matter).
- */
+*/
 // words 会包括重复项
 
 func findSubstring(s string, words []string) []int {
@@ -25,7 +25,7 @@ func findSubstring(s string, words []string) []int {
 	wordsCount := make([]int, wordsLen)
 	for i, w := range words {
 		v, ok := wordsMap[w]
-		if ! ok {
+		if !ok {
 			wordsMap[w] = i
 			v = i
 		}
@@ -42,7 +42,7 @@ func findSubstring(s string, words []string) []int {
 
 				if hitCount[v] == wordsCount[v] {
 					for findSeq[0] != v {
-						findCount --
+						findCount--
 						hitCount[findSeq[0]]--
 						findSeq = findSeq[1:]
 						findIndex += wordSize
@@ -74,8 +74,8 @@ func findSubstring(s string, words []string) []int {
 			if findCount == wordsLen {
 				ans = append(ans, findIndex)
 				//fmt.Println("append ans", findIndex)
-				findCount --
-				hitCount[findSeq[0]] --
+				findCount--
+				hitCount[findSeq[0]]--
 				findSeq = findSeq[1:]
 				findIndex += wordSize
 			}

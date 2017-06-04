@@ -8,7 +8,7 @@ You are giving candies to these children subjected to the following requirements
 Each child must have at least one candy.
 Children with a higher rating get more candies than their neighbors.
 What is the minimum candies you must give?
- */
+*/
 
 func candy(ratings []int) int {
 	if len(ratings) <= 1 {
@@ -21,7 +21,7 @@ func candy(ratings []int) int {
 		v := ratings[i]
 		if v > lastRating {
 			lastRating = v
-			lastCandy ++
+			lastCandy++
 			candiesCount += lastCandy
 		} else if v == lastRating {
 			lastCandy = 1
@@ -37,7 +37,7 @@ func candy(ratings []int) int {
 			}
 			lastCandy = 1
 
-			candiesCount += ((j - i) + 1 ) * (j - i) / 2
+			candiesCount += ((j - i) + 1) * (j - i) / 2
 
 			if (j - i + 1) > highestValue {
 				candiesCount += (j - i + 1) - highestValue

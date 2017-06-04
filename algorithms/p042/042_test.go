@@ -39,6 +39,6 @@ func TestExtra5(t *testing.T) {
 }
 
 func TestExtra6(t *testing.T) {
-	height := []int{5,2,1,2,1,5}
+	height := []int{5, 2, 1, 2, 1, 5}
 	test(t, height, 14)
 }

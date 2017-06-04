@@ -5,7 +5,7 @@ Given an index k, return the kth row of the Pascal's triangle.
 
 For example, given k = 3,
 Return [1,3,3,1].
- */
+*/
 
 func getRow(rowIndex int) []int {
 	res := make([]int, rowIndex+1)

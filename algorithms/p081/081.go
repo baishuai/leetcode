@@ -15,7 +15,7 @@ Suppose an array sorted in ascending order is rotated at some
 Write a function to determine if a given target is in the array.
 
 The array may contain duplicates.
- */
+*/
 
 func search(nums []int, target int) bool {
 	if len(nums) == 0 {

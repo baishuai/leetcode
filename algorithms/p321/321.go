@@ -23,7 +23,7 @@ nums1 = [3, 9]
 nums2 = [8, 9]
 k = 3
 return [9, 8, 9]
- */
+*/
 
 func max(a, b int) int {
 	if a > b {

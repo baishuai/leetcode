@@ -11,7 +11,7 @@ For example,
 a = "11"
 b = "1"
 Return "100".
- */
+*/
 
 func addBinary(a string, b string) string {
 	carry := byte('0')

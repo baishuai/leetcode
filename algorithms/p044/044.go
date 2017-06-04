@@ -1,6 +1,5 @@
 package p044
 
-
 /**
 Implement wildcard pattern matching with support for '?' and '*'.
 
@@ -20,7 +19,7 @@ isMatch("aa", "*") → true
 isMatch("aa", "a*") → true
 isMatch("ab", "?*") → true
 isMatch("aab", "c*a*b") → false
- */
+*/
 
 func isMatch(s string, p string) bool {
 

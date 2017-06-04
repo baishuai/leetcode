@@ -16,7 +16,7 @@ Output: 0
 
 In this case, no transaction is done, i.e. max profit = 0.
 
- */
+*/
 
 func maxProfit(prices []int) int {
 	mProfit, preProfit, profit := 0, 0, 0

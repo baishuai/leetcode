@@ -11,8 +11,8 @@ func TestExample(t *testing.T) {
 func TestExample1(t *testing.T) {
 	root := &TreeNode{1,
 		&TreeNode{2,
-				  &TreeNode{3, nil, nil},
-				  nil},
+			&TreeNode{3, nil, nil},
+			nil},
 		nil}
 
 	if isBalanced(root) == true {

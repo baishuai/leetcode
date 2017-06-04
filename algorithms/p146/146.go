@@ -1,6 +1,5 @@
 package p146
 
-
 /**
 Design and implement a data structure for Least Recently Used (LRU) cache.
  It should support the following operations: get and put.
@@ -13,7 +12,7 @@ put(key, value) - Set or insert the value if the key is not already present.
 
 Follow up:
 Could you do both operations in O(1) time complexity?
- */
+*/
 
 type DLinkNode struct {
 	key  int

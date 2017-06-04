@@ -6,7 +6,7 @@ Write a program to solve a Sudoku puzzle by filling the empty cells.
 Empty cells are indicated by the character '.'.
 
 You may assume that there will be only one unique solution.
- */
+*/
 
 type bit9Set int16
 
@@ -18,7 +18,7 @@ func (bs *bit9Set) insert(b byte) {
 	*bs = *bs | (1 << b)
 }
 
-func (bs*bit9Set) remove(b byte) {
+func (bs *bit9Set) remove(b byte) {
 	*bs = *bs &^ (1 << b)
 }
 
@@ -31,7 +31,7 @@ func solveSudoku(board [][]byte) {
 		for j := 0; j < 9; j++ {
 			b := board[i][j]
 			if b == '.' {
-				dotCount ++
+				dotCount++
 			} else {
 				b = b - '0'
 				rows[i].insert(b)
@@ -60,8 +60,8 @@ func solveSudoku(board [][]byte) {
 		find := false
 		for v := byte(1); v <= 9; v++ {
 			if !rows[i].contains(v) &&
-				! cols[j].contains(v) &&
-				! grids[i/3*3+j/3].contains(v) {
+				!cols[j].contains(v) &&
+				!grids[i/3*3+j/3].contains(v) {
 				rows[i].insert(v)
 				cols[j].insert(v)
 				grids[i/3*3+j/3].insert(v)

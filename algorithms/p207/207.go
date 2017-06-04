@@ -14,13 +14,13 @@ There are a total of 2 courses to take. To take course 1 you should have finishe
 
 2, [[1,0],[0,1]]
 There are a total of 2 courses to take. To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.
- */
+*/
 
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	indegree := make([]int, numCourses)
 	in0s := make([]int, 0)
 	for _, v := range prerequisites {
-		indegree[v[0]] ++
+		indegree[v[0]]++
 	}
 
 	for i, v := range indegree {

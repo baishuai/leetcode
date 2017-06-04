@@ -24,13 +24,13 @@ func TestExample0(t *testing.T) {
 		&ListNode{2,
 			&ListNode{3,
 				&ListNode{4,
-						  &ListNode{5, nil}}}}}
+					&ListNode{5, nil}}}}}
 
 	exp := &ListNode{5,
 		&ListNode{4,
 			&ListNode{3,
 				&ListNode{2,
-						  &ListNode{1, nil}}}}}
+					&ListNode{1, nil}}}}}
 
 	test(t, list, exp)
 }

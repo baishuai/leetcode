@@ -18,14 +18,14 @@ its corresponding outputs are in the right-hand column.
 1,2,3 → 1,3,2
 3,2,1 → 1,2,3
 1,1,5 → 1,5,1
- */
+*/
 
 func nextPermutation(nums []int) {
 	if len(nums) <= 1 {
 		return
 	}
 	reverse := func(l int) {
-		h := len(nums)-1
+		h := len(nums) - 1
 		for l < h {
 			nums[l], nums[h] = nums[h], nums[l]
 			l++

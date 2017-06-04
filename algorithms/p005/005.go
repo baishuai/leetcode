@@ -15,7 +15,7 @@ Example:
 Input: "cbbd"
 
 Output: "bb"
- */
+*/
 
 func longestPalindrome(s string) string {
 	sLen := len(s)
@@ -24,7 +24,7 @@ func longestPalindrome(s string) string {
 	findInnerLastChar := func(index int) int {
 		lastIndex := index
 		for s[lastIndex] == s[index] {
-			lastIndex ++
+			lastIndex++
 			if lastIndex >= sLen {
 				break
 			}
@@ -46,6 +46,6 @@ func longestPalindrome(s string) string {
 		}
 	}
 	lastIndex := findInnerLastChar(longestIndex)
-	left := longestIndex - (longCount[longestIndex]-(lastIndex-longestIndex+1) )/2
-	return string([]byte(s)[left: left+longCount[longestIndex]])
+	left := longestIndex - (longCount[longestIndex]-(lastIndex-longestIndex+1))/2
+	return string([]byte(s)[left : left+longCount[longestIndex]])
 }

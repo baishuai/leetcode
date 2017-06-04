@@ -7,7 +7,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
  (ie, buy one and sell one share of the stock multiple times).
   However, you may not engage in multiple transactions at the same time
    (ie, you must sell the stock before you buy again).
- */
+*/
 
 func maxProfit(prices []int) int {
 	mProfit := 0

@@ -25,7 +25,7 @@ Explanation: 1000000000000000000 base 999999999999999999 is 11.
 Note:
 The range of n is [3, 10^18].
 The string representing n is always valid and will not have leading zeros
- */
+*/
 
 func widthBase(n int64, w int) int64 {
 	l, r := int64(2), int64(math.Pow(float64(n), 1.0/float64(w-1)))

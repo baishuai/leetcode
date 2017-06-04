@@ -1,8 +1,8 @@
 package p213
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func test(t *testing.T, nums []int, exp int) {

@@ -1,6 +1,5 @@
 package p077
 
-
 /**
 Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
@@ -15,7 +14,7 @@ If n = 4 and k = 2, a solution is:
   [1,3],
   [1,4],
 ]
- */
+*/
 
 func combine(n int, k int) [][]int {
 	res := make([][]int, 0)

@@ -16,7 +16,7 @@ X X X X
 X X X X
 X X X X
 X O X X
- */
+*/
 
 func solve(board [][]byte) {
 	rows := len(board)
@@ -48,13 +48,13 @@ func solve(board [][]byte) {
 		if p == q {
 			return
 		}
-		if (rank[p] < rank[q]) {
+		if rank[p] < rank[q] {
 			id[p] = q
-		} else if (rank[p] > rank[q]) {
+		} else if rank[p] > rank[q] {
 			id[q] = p
 		} else {
 			id[q] = p
-			rank[p] += 1;
+			rank[p] += 1
 		}
 	}
 
@@ -70,10 +70,10 @@ func solve(board [][]byte) {
 				if j == 1 && (board[i][j-1] == 'O') {
 					union(i*cols+j, i*cols+j-1)
 				}
-				if (board[i+1][j] == 'O') {
+				if board[i+1][j] == 'O' {
 					union(i*cols+j, (i+1)*cols+j)
 				}
-				if (board[i][j+1] == 'O') {
+				if board[i][j+1] == 'O' {
 					union(i*cols+j, i*cols+j+1)
 				}
 			}

@@ -1,9 +1,8 @@
 package p218
 
 import (
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func Test0(t *testing.T) {

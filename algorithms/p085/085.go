@@ -11,7 +11,7 @@ For example, given the following matrix:
 1 1 1 1 1
 1 0 0 1 0
 Return 6.
- */
+*/
 
 func maximalRectangle(matrix [][]byte) int {
 	if len(matrix) == 0 {
@@ -22,7 +22,7 @@ func maximalRectangle(matrix [][]byte) int {
 	for i := 0; i < len(matrix); i++ {
 		for j := 0; j < len(matrix[i]); j++ {
 			if matrix[i][j] == '1' {
-				heights[j] ++
+				heights[j]++
 			} else {
 				heights[j] = 0
 			}

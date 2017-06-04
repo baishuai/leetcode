@@ -13,7 +13,7 @@ All input integers will range from 0 to 100.
 The garden has at least one tree.
 All coordinates are distinct.
 Input points have NO order. No order required for output.
- */
+*/
 
 /**
  * Definition for a point.
@@ -54,7 +54,7 @@ func outerTrees(points []Point) []Point {
 			if p == cur {
 				continue
 			}
-			count ++
+			count++
 			if count == 1 {
 				pc = p
 				continue

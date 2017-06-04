@@ -13,7 +13,7 @@ Given the following binary tree,
 You should return [1, 3, 4].
 
 
- */
+*/
 
 type TreeNode struct {
 	Val   int
@@ -43,7 +43,7 @@ func rightSideView(root *TreeNode) []int {
 			count := 1
 			for prev.Right != nil && prev.Right != cur {
 				prev = prev.Right
-				count ++
+				count++
 			}
 
 			if prev.Right == nil {

@@ -12,7 +12,7 @@ Here is an example of version numbers ordering:
 
 0.1 < 1.1 < 1.2 < 13.37
 
- */
+*/
 
 func compareVersion(version1 string, version2 string) int {
 	i, j := 0, 0

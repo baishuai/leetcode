@@ -17,7 +17,7 @@ Window position                Max
  1  3  -1  -3 [5  3  6] 7       6
  1  3  -1  -3  5 [3  6  7]      7
 Therefore, return the max sliding window as [3,3,5,5,6,7].
- */
+*/
 
 func maxSlidingWindow(nums []int, k int) []int {
 	maxAns := make([]int, 0)

@@ -14,13 +14,13 @@ func TestContact(t *testing.T) {
 		if ans.Val != index {
 			t.Fatalf("error answer, %v", ans)
 		}
-		index ++
+		index++
 		ans = ans.Next
 	}
 }
 
 func TestSame(t *testing.T) {
-	l1 := &ListNode{1, nil }
+	l1 := &ListNode{1, nil}
 	l2 := &ListNode{1, nil}
 
 	ans := mergeTwoLists(l1, l2)
@@ -29,7 +29,7 @@ func TestSame(t *testing.T) {
 		if ans.Val != 1 {
 			t.Fatalf("error answer, %v", ans)
 		}
-		count ++
+		count++
 		ans = ans.Next
 	}
 	if count != 2 {

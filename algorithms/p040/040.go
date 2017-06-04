@@ -21,7 +21,7 @@ A solution set is:
   [2, 6],
   [1, 1, 6]
 ]
- */
+*/
 
 func combinationSum2(candidates []int, target int) [][]int {
 

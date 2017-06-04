@@ -12,7 +12,7 @@ You should return the following matrix:
  [ 8, 9, 4 ],
  [ 7, 6, 5 ]
 ]
- */
+*/
 
 func generateMatrix(n int) [][]int {
 	mat := make([][]int, n)
@@ -31,7 +31,7 @@ func generateMatrix(n int) [][]int {
 			mat[rowStart][i] = fill
 			fill++
 		}
-		rowStart ++
+		rowStart++
 
 		for i := rowStart; i <= rowEnd; i++ {
 			mat[i][colEnd] = fill

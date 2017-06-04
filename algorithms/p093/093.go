@@ -1,6 +1,5 @@
 package p093
 
-
 /**
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.
 
@@ -8,7 +7,7 @@ For example:
 Given "25525511135",
 
 return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
- */
+*/
 
 func restoreIpAddresses(s string) []string {
 
@@ -21,7 +20,7 @@ func restoreIpAddresses(s string) []string {
 		for i := s; i < s+d; i++ {
 			seg = seg*10 + int(ss[i]-'0')
 		}
-		return (d == 1 && seg < 10) || (d == 2 && seg >= 10 && seg < 100) || seg >=100 && seg <= 255
+		return (d == 1 && seg < 10) || (d == 2 && seg >= 10 && seg < 100) || seg >= 100 && seg <= 255
 	}
 	for i := 1; i <= 3; i++ {
 		for j := 1; j <= 3; j++ {
@@ -30,7 +29,7 @@ func restoreIpAddresses(s string) []string {
 					if i+j+k+l != len(ss) {
 						continue
 					}
-					if !atoi(0, i) || !atoi(i, j) || !atoi(i+j, k)|| !atoi(i+j+k, l){
+					if !atoi(0, i) || !atoi(i, j) || !atoi(i+j, k) || !atoi(i+j+k, l) {
 						continue
 					}
 					copy(rbs[0:i], ss[0:i])

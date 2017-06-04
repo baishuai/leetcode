@@ -1,8 +1,8 @@
 package p073
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func Test0(t *testing.T) {
@@ -22,7 +22,6 @@ func Test0(t *testing.T) {
 	assert.Equal(t, exp, mat)
 }
 
-
 func Test1(t *testing.T) {
 	mat := [][]int{
 		{1, 1, 1},
@@ -39,7 +38,6 @@ func Test1(t *testing.T) {
 
 	assert.Equal(t, exp, mat)
 }
-
 
 func Test2(t *testing.T) {
 	mat := [][]int{
@@ -58,16 +56,11 @@ func Test2(t *testing.T) {
 	assert.Equal(t, exp, mat)
 }
 
-
 func Test3(t *testing.T) {
-	mat := [][]int{
-
-	}
+	mat := [][]int{}
 
 	setZeroes(mat)
-	exp := [][]int{
-	}
+	exp := [][]int{}
 
 	assert.Equal(t, exp, mat)
 }
-

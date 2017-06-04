@@ -24,7 +24,7 @@ The flattened tree should look like:
             \
              6
 
- */
+*/
 
 /**
  * Definition for a binary tree node.
@@ -44,7 +44,7 @@ type TreeNode struct {
 /**
 rotate node.left to node.right
 link pre node.right to pre node's pre node
- */
+*/
 func rotate(node *TreeNode) {
 	// node.left must not be nil
 	left := node.Left

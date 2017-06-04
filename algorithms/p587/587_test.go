@@ -1,10 +1,9 @@
 package p587
 
 import (
+	"github.com/stretchr/testify/assert"
 	"sort"
 	"testing"
-
-	"github.com/stretchr/testify/assert"
 )
 
 type Points []Point

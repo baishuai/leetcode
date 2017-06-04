@@ -1,8 +1,8 @@
 package p375
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func Test10(t *testing.T) {

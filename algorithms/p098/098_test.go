@@ -49,8 +49,8 @@ func TestExtra3(t *testing.T) {
 		10,
 		&TreeNode{5, nil, nil},
 		&TreeNode{15,
-				  &TreeNode{6, nil, nil},
-				  &TreeNode{20, nil, nil}},
+			&TreeNode{6, nil, nil},
+			&TreeNode{20, nil, nil}},
 	}
 	test(t, root, false)
 }

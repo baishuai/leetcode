@@ -16,7 +16,7 @@ The root-to-leaf path 1->2 represents the number 12.
 The root-to-leaf path 1->3 represents the number 13.
 
 Return the sum = 12 + 13 = 25.
- */
+*/
 
 /**
  * Definition for a binary tree node.
@@ -42,7 +42,7 @@ func sumNumbers(root *TreeNode) int {
 			dfs(node.Left, num)
 			dfs(node.Right, num)
 			if node.Left == nil && node.Right == nil {
-				sum += num;
+				sum += num
 			}
 		}
 

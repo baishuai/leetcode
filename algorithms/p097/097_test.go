@@ -16,8 +16,6 @@ func TestExample1(t *testing.T) {
 	test(t, "aabcc", "dbbca", "aadbbbaccc", false)
 }
 
-
 func TestExtra0(t *testing.T) {
 	test(t, "aabd", "abdc", "aabdabcd", true)
 }
-

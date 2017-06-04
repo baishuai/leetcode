@@ -2,7 +2,7 @@ package p150
 
 import "testing"
 
-func test(t *testing.T, tokens [] string, exp int) {
+func test(t *testing.T, tokens []string, exp int) {
 	if ans := evalRPN(tokens); ans != exp {
 		t.Fatal("error", ans, "Exp", exp)
 	}

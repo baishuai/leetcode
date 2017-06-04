@@ -24,7 +24,7 @@ nums = [
 ]
 Return 4
 The longest increasing path is [3, 4, 5, 6]. Moving diagonally is not allowed.
- */
+*/
 
 func longestIncreasingPath(matrix [][]int) int {
 

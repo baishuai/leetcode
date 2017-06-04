@@ -12,7 +12,7 @@ Note:
 Once you move the ball out of boundary, you cannot move it back.
 The length and height of the grid is in range [1,50].
 N is in range [0,50].
- */
+*/
 
 //从点（i，j）走到边界可以反过来考虑，从任意边界走到点（i，j）
 

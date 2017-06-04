@@ -1,9 +1,8 @@
 package p149
 
-
 /**
 Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
- */
+*/
 
 /**
  * Definition for a point.
@@ -50,7 +49,7 @@ func maxPoints(points []Point) int {
 		for j := i + 1; j < length; j++ {
 			dy, dx := points[j].Y-points[i].Y, points[j].X-points[i].X
 			if dx == 0 && dy == 0 {
-				samep ++
+				samep++
 				continue
 			}
 			if dx == 0 {

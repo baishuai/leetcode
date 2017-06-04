@@ -12,7 +12,7 @@ func TestLess10(t *testing.T) {
 		t.Fatal("error answer", ans)
 	}
 
-	if ans := romanToInt("IV"); ans != 4{
+	if ans := romanToInt("IV"); ans != 4 {
 		t.Fatal("error answer", ans)
 	}
 
@@ -71,7 +71,7 @@ func TestHundred(t *testing.T) {
 	}
 }
 
-func TestOther(t *testing.T)  {
+func TestOther(t *testing.T) {
 	if ans := romanToInt("DCXXI"); ans != 621 {
 		t.Fatal("error answer", ans)
 	}

@@ -3,7 +3,7 @@ package p066
 import "testing"
 
 func test(t *testing.T, digits []int, exp []int) {
-	ans := plusOne(digits);
+	ans := plusOne(digits)
 	if len(ans) != len(exp) {
 		t.Fatal("error answer length", len(ans))
 	}
@@ -18,7 +18,6 @@ func TestExtra0(t *testing.T) {
 	test(t, []int{0}, []int{1})
 }
 
-
 func TestExtra1(t *testing.T) {
-	test(t, []int{9}, []int{1,0})
+	test(t, []int{9}, []int{1, 0})
 }

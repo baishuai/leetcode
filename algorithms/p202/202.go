@@ -11,7 +11,7 @@ Example: 19 is a happy number
 82 + 22 = 68
 62 + 82 = 100
 12 + 02 + 02 = 1
- */
+*/
 
 func digitSquare(m int) int {
 	sum, tmp := 0, 0

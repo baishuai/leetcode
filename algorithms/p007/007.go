@@ -18,7 +18,7 @@ Did you notice that the reversed integer might overflow? Assume the input is a 3
 For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 
- */
+*/
 
 func reverse(x int) int {
 	result := 0

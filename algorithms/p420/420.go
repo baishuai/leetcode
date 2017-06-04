@@ -9,13 +9,13 @@ It must NOT contain three repeating characters in a row ("...aaa..." is weak, bu
 Write a function strongPasswordChecker(s), that takes a string s as input, and return the MINIMUM change required to make s a strong password. If s is already strong, return 0.
 
 Insertion, deletion or replace of any one character are all considered as one change.
- */
+*/
 
 /**
 s.length() < 6
 6 <= s.length() <= 20
 s.length() > 20
- */
+*/
 
 func max(a, b int) int {
 	if a > b {
@@ -54,7 +54,7 @@ func strongPasswordChecker(s string) int {
 					toAdd++
 					l = r
 				} else {
-					toReplace ++
+					toReplace++
 					l = r + 1
 				}
 			} else {

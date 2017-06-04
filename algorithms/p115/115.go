@@ -1,6 +1,5 @@
 package p115
 
-
 /**
 Given a string S and a string T, count the number of distinct subsequences of T in S.
 
@@ -12,7 +11,7 @@ Here is an example:
 S = "rabbbit", T = "rabbit"
 
 Return 3.
- */
+*/
 
 func numDistinct(s string, t string) int {
 	if len(s) < len(t) {

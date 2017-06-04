@@ -11,7 +11,6 @@ func TestInt(t *testing.T) {
 	}
 }
 
-
 func TestZero(t *testing.T) {
 	result := reverse(0)
 	if result != 0 {
@@ -19,15 +18,12 @@ func TestZero(t *testing.T) {
 	}
 }
 
-
-
 func TestNeg(t *testing.T) {
 	result := reverse(-123)
 	if result != -321 {
 		t.Fatal("error anwser", result)
 	}
 }
-
 
 func TestOverflow(t *testing.T) {
 	result := reverse(9223372036854775599)

@@ -11,7 +11,7 @@ Both num1 and num2 contains only digits 0-9.
 Both num1 and num2 does not contain any leading zero.
 You must not use any built-in BigInteger library
  or convert the inputs to integer directly.
- */
+*/
 
 func multiply(num1 string, num2 string) string {
 	// 大数乘法

@@ -16,7 +16,7 @@ Given words = ["oath","pea","eat","rain"] and board =
 ]
 Return ["eat","oath"].
 
- */
+*/
 
 type trieNode struct {
 	word     string

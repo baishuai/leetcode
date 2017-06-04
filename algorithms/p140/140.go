@@ -14,7 +14,7 @@ s = "catsanddog",
 dict = ["cat", "cats", "and", "sand", "dog"].
 
 A solution is ["cats and dog", "cat sand dog"].
- */
+*/
 
 type Trie struct {
 	root *TrieNode

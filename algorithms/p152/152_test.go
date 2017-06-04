@@ -27,7 +27,7 @@ func TestExtra2(t *testing.T) {
 }
 
 func TestExtra3(t *testing.T) {
-	if ans := maxProduct([]int{-3, 2, -4,0,4,8}); ans != 32 {
+	if ans := maxProduct([]int{-3, 2, -4, 0, 4, 8}); ans != 32 {
 		t.Fatal("error answer", ans)
 	}
 }

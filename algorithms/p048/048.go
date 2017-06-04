@@ -7,7 +7,7 @@ Rotate the image by 90 degrees (clockwise).
 
 Follow up:
 Could you do this in-place?
- */
+*/
 
 func rotate(matrix [][]int) {
 	i, j, n := 0, len(matrix)-1, len(matrix)

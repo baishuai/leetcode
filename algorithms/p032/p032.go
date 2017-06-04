@@ -9,7 +9,7 @@ For "(()", the longest valid parentheses substring is "()",
 
 Another example is ")()())", where the longest valid parentheses
  substring is "()()", which has length = 4.
- */
+*/
 
 func longestValidParentheses(s string) int {
 	ss := []byte(s)

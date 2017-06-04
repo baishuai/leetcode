@@ -29,7 +29,6 @@ func TestExtra3(t *testing.T) {
 	test(t, nums, 4, 0)
 }
 
-
 func TestExtra4(t *testing.T) {
 	nums := []int{4}
 	test(t, nums, 4, 0)

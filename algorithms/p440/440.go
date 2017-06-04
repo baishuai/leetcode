@@ -15,7 +15,7 @@ Output:
 
 Explanation:
 The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
- */
+*/
 
 func calcSteps(n int, ix int) int {
 	steps := 0
@@ -38,7 +38,7 @@ func findKthNumber(n int, k int) int {
 	for k > 0 {
 		steps := calcSteps(n, ix)
 		if steps <= k {
-			ix ++
+			ix++
 			k -= steps
 		} else {
 			ix *= 10

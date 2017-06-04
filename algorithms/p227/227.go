@@ -11,7 +11,7 @@ Some examples:
 "3+2*2" = 7
 " 3/2 " = 1
 " 3+5 / 2 " = 5
- */
+*/
 
 func calculate(s string) int {
 	ss := []byte(s)

@@ -22,7 +22,7 @@ If nums = [1,2,3], a solution is:
   [1,2],
   []
 ]
- */
+*/
 // same with subsetsWithDup 090.go
 func subsets(nums []int) [][]int {
 

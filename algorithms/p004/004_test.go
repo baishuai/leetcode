@@ -26,10 +26,9 @@ func TestMean(t *testing.T) {
 	}
 }
 
-
 func Test0(t *testing.T) {
 	nums1 := []int{1, 3}
-	nums2 := []int{1,2,3}
+	nums2 := []int{1, 2, 3}
 
 	mean := findMedianSortedArrays(nums1, nums2)
 
@@ -38,10 +37,9 @@ func Test0(t *testing.T) {
 	}
 }
 
-
 func Test1(t *testing.T) {
 	nums1 := []int{1}
-	nums2 := []int{1,2,3}
+	nums2 := []int{1, 2, 3}
 
 	mean := findMedianSortedArrays(nums1, nums2)
 
@@ -50,10 +48,9 @@ func Test1(t *testing.T) {
 	}
 }
 
-
 func Test2(t *testing.T) {
 	nums2 := []int{3}
-	nums1 := []int{1,2,3}
+	nums1 := []int{1, 2, 3}
 
 	mean := findMedianSortedArrays(nums1, nums2)
 	if mean != 2.5 {
@@ -61,10 +58,9 @@ func Test2(t *testing.T) {
 	}
 }
 
-
 func Test3(t *testing.T) {
 	nums2 := []int{3}
-	nums1 := []int{1,2,3,4,5}
+	nums1 := []int{1, 2, 3, 4, 5}
 
 	mean := findMedianSortedArrays(nums1, nums2)
 	if mean != 3 {
@@ -72,10 +68,9 @@ func Test3(t *testing.T) {
 	}
 }
 
-
 func Test4(t *testing.T) {
 	nums2 := []int{2}
-	nums1 := []int{1,2,3,4}
+	nums1 := []int{1, 2, 3, 4}
 
 	mean := findMedianSortedArrays(nums1, nums2)
 	if mean != 2 {

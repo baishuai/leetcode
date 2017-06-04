@@ -25,7 +25,7 @@ func wordBreak(s string, wordDict []string) bool {
 			wordsByLen = append(wordsByLen, make([]string, 0))
 			i = baseLen
 			len2rowMap[len(v)] = i
-			baseLen ++
+			baseLen++
 			if len(v) > maxLen {
 				maxLen = len(v)
 			}
@@ -37,7 +37,7 @@ func wordBreak(s string, wordDict []string) bool {
 	dp := make([]bool, len(s)+1)
 	dp[0] = true
 	base := 0
-	for base = 0; base <= len(s); base ++ {
+	for base = 0; base <= len(s); base++ {
 		if !dp[base] {
 			continue
 		}

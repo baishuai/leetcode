@@ -3,7 +3,7 @@ package p208
 /**
 Implement a trie with insert, search, and startsWith methods.
 You may assume that all inputs are consist of lowercase letters a-z.
- */
+*/
 
 type Trie struct {
 	root *TrieNode

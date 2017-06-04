@@ -23,7 +23,7 @@ Example 3:
 nums = [1, 2, 2], n = 5
 Return 0.
 
- */
+*/
 
 func minPatches(nums []int, n int) int {
 	form, adds, ix := 1, 0, 0

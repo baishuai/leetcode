@@ -18,7 +18,7 @@ There are 8 records with length 2 will be regarded as rewardable:
 "PP" , "AP", "PA", "LP", "PL", "AL", "LA", "LL"
 Only "AA" won't be regarded as rewardable owing to more than one absent times.
 
- */
+*/
 
 type record struct {
 	na_ep  int

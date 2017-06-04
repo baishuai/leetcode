@@ -36,7 +36,7 @@ If the first sequence of non-whitespace characters in str is
 If no valid conversion could be performed, a zero value is returned.
  If the correct value is out of the range of representable values,
  INT_MAX (2147483647) or INT_MIN (-2147483648) is returned.
- */
+*/
 
 func myAtoi(str string) int {
 	//trim leading whitespace
@@ -62,7 +62,7 @@ func myAtoi(str string) int {
 			ans = 2147483647
 			break
 		} else if ans < -2147483648 {
-			ans = - 2147483648
+			ans = -2147483648
 			break
 		} else if ans != 0 && ((ans > 0) != (flag > 0)) {
 			ans = 2147483647 * flag

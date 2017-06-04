@@ -17,5 +17,5 @@ func TestExample1(t *testing.T) {
 }
 
 func TestExtra0(t *testing.T) {
-	test(t,5,16,"14352")
+	test(t, 5, 16, "14352")
 }

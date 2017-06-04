@@ -33,13 +33,13 @@ func TestExample3(t *testing.T) {
 }
 
 func TestExample4(t *testing.T) {
-	nums := []int{1,2,5,3,6,4,2}
-	exp := []int{1,2,5,4,2,3,6}
+	nums := []int{1, 2, 5, 3, 6, 4, 2}
+	exp := []int{1, 2, 5, 4, 2, 3, 6}
 	test(t, nums, exp)
 }
 
 func TestExample5(t *testing.T) {
-	nums := []int{1,5,1}
-	exp := []int{5,1,1}
+	nums := []int{1, 5, 1}
+	exp := []int{5, 1, 1}
 	test(t, nums, exp)
 }

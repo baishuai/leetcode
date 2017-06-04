@@ -19,7 +19,7 @@ Input: 1
 Output: 0
 Explanation: The binary representation of 1 is 1 (no leading zero bits),
 and its complement is 0. So you need to output 0.
- */
+*/
 
 func findComplement(num int) int {
 	mask := num

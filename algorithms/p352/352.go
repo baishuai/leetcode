@@ -15,7 +15,7 @@ For example, suppose the integers from the data stream are 1, 3, 7, 2, 6, ...,
 Follow up:
 What if there are lots of merges and the number of disjoint intervals are small
  compared to the data stream's size?
- */
+*/
 
 /**
  * Definition for an interval.

@@ -9,7 +9,7 @@ Given [3,2,1,5,6,4] and k = 2, return 5.
 
 Note:
 You may assume k is always valid, 1 ≤ k ≤ array's length.
- */
+*/
 
 func findKthLargest(nums []int, k int) int {
 	v := nums[0]

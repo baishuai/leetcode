@@ -2,7 +2,6 @@ package p115
 
 import "testing"
 
-
 func TestExtra0(t *testing.T) {
 	num := numDistinct("aacaacca", "ca")
 	if num != 5 {

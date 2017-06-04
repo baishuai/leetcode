@@ -10,7 +10,7 @@ s2 = "dbbca",
 
 When s3 = "aadbbcbcac", return true.
 When s3 = "aadbbbaccc", return false.
- */
+*/
 
 func isInterleave(s1 string, s2 string, s3 string) bool {
 	if len(s1)+len(s2) != len(s3) {

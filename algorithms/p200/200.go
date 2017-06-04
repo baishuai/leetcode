@@ -50,7 +50,7 @@ func numIslands(grid [][]byte) int {
 				if j == 1 && (grid[i][j-1] == '1') {
 					union(i*cols+j, i*cols+j-1)
 				}
-				if (i < rows-1 ) && (grid[i+1][j] == '1') {
+				if (i < rows-1) && (grid[i+1][j] == '1') {
 					union(i*cols+j, (i+1)*cols+j)
 				}
 				if (j < cols-1) && (grid[i][j+1] == '1') {

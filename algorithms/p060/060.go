@@ -13,10 +13,10 @@ We get the following sequence (ie, for n = 3):
 "312"
 "321"
 Given n and k, return the kth permutation sequence.
- */
+*/
 
 func getPermutation(n int, k int) string {
-	bitSet := (1 << uint(n) ) - 1
+	bitSet := (1 << uint(n)) - 1
 	kt := make([]int, n-1)
 	k--
 	fact := 1

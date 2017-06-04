@@ -17,7 +17,7 @@ Explanation:
 1st move:    1     0 <-- 5    =>    1     1     4
 2nd move:    1 <-- 1 <-- 4    =>    2     1     3
 3rd move:    2     1 <-- 3    =>    2     2     2
- */
+*/
 
 func max(a, b, c int) int {
 	if a >= b && a >= c {

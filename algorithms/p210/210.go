@@ -7,7 +7,7 @@ func findOrder(numCourses int, prerequisites [][]int) []int {
 	indegree := make([]int, numCourses)
 	in0s := make([]int, 0)
 	for _, v := range prerequisites {
-		indegree[v[0]] ++
+		indegree[v[0]]++
 	}
 
 	for i, v := range indegree {

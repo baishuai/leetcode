@@ -24,10 +24,10 @@ func test(t *testing.T, cand []int, target int, exp [][]int) {
 func TestExample(t *testing.T) {
 	cand := []int{10, 1, 2, 7, 6, 1, 5}
 	exp := [][]int{
-		{1,1,6},
-		{1,2,5},
-		{1,7},
-		{2,6},
+		{1, 1, 6},
+		{1, 2, 5},
+		{1, 7},
+		{2, 6},
 	}
 	test(t, cand, 8, exp)
 }

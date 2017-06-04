@@ -1,6 +1,5 @@
 package p148
 
-
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

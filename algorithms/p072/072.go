@@ -9,7 +9,7 @@ You have the following 3 operations permitted on a word:
 a) Insert a character
 b) Delete a character
 c) Replace a character
- */
+*/
 
 func min(a, b, c int) int {
 	if a <= b && a <= c {

@@ -29,7 +29,6 @@ func TestExample4(t *testing.T) {
 	test(t, nums, 0, 0)
 }
 
-
 func TestExample5(t *testing.T) {
 	nums := []int{0}
 	test(t, nums, 0, 0)

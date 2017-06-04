@@ -17,7 +17,7 @@ return -1.
 
 Note:
 You may assume that you have an infinite number of each kind of coin.
- */
+*/
 
 func min(a, b int) int {
 	if a < b {

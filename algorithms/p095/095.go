@@ -16,7 +16,7 @@ type TreeNode struct {
 }
 
 func generateTrees(n int) []*TreeNode {
-	if n==0 {
+	if n == 0 {
 		return nil
 	}
 	return genTrees(1, n)

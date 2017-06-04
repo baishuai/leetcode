@@ -17,7 +17,7 @@ There is one obstacle in the middle of a 3x3 grid as illustrated below.
   [0,0,0]
 ]
 The total number of unique paths is 2.
- */
+*/
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	m := len(obstacleGrid)

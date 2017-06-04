@@ -1,6 +1,5 @@
 package p084
 
-
 /**
 Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
 
@@ -13,7 +12,7 @@ The largest rectangle is shown in the shaded area, which has area = 10 unit.
 For example,
 Given heights = [2,1,5,6,2,3],
 return 10.
- */
+*/
 
 func largestRectangleArea(heights []int) int {
 	if heights == nil || len(heights) == 0 {

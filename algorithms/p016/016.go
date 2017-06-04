@@ -13,7 +13,7 @@ Given an array S of n integers, find three integers in S such that
     For example, given array S = {-1 2 1 -4}, and target = 1.
 
     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
- */
+*/
 
 func abs(x int) int {
 	if x < 0 {
