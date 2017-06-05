@@ -1,9 +1,9 @@
 
-# leetcode 题解, go语言版
+# leetcode 题解
 
-[![Build Status](https://travis-ci.org/baishuai/leetcode_go.svg?branch=master)](https://travis-ci.org/baishuai/leetcode_go)
+[![Build Status](https://travis-ci.org/baishuai/leetcode.svg?branch=master)](https://travis-ci.org/baishuai/leetcode)
 
-[![codecov](https://codecov.io/gh/baishuai/leetcode_go/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode_go)
+[![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
 完成进度 264/543
 

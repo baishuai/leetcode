@@ -1,6 +1,5 @@
 package p074
 
-
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"
