@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 264/543
+完成进度 268/543
 
 
 | # | Title | Solution | Difficulty | Finshed |
@@ -107,7 +107,7 @@
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)| [Go](./algorithms/p477/477.go) |Medium |   |
 |476|[Number Complement](https://leetcode.com/problems/number-complement)| [Go](./algorithms/p476/476.go) |Easy | :heavy_check_mark: |
 |475|[Heaters](https://leetcode.com/problems/heaters)| [Go](./algorithms/p475/475.go) |Easy |   |
-|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes)| [Go](./algorithms/p474/474.go) |Medium |   |
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes)| [Go](./algorithms/p474/474.go) |Medium | :heavy_check_mark:  |
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square)| [Go](./algorithms/p473/473.go) |Medium |   |
 |472|[Concatenated Words](https://leetcode.com/problems/concatenated-words)| [Go](./algorithms/p472/472.go) |Hard | :heavy_check_mark: |
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)| [Go](./algorithms/p471/471.go) |Hard |   |
@@ -157,7 +157,7 @@
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)| [Go](./algorithms/p416/416.go) |Medium | :heavy_check_mark: |
 |415|[Add Strings](https://leetcode.com/problems/add-strings)| [Go](./algorithms/p415/415.go) |Easy |   |
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number)| [Go](./algorithms/p414/414.go) |Easy |   |
-|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices)| [Go](./algorithms/p413/413.go) |Medium |   |
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices)| [Go](./algorithms/p413/413.go) |Medium |   :heavy_check_mark: |
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)| [Go](./algorithms/p412/412.go) |Easy |   |
 |411|[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation)| [Go](./algorithms/p411/411.go) |Hard |   |
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum)| [Go](./algorithms/p410/410.go) |Hard | :heavy_check_mark: |
@@ -178,7 +178,7 @@
 |395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)| [Go](./algorithms/p395/395.go) |Medium |   |
 |394|[Decode String](https://leetcode.com/problems/decode-string)| [Go](./algorithms/p394/394.go) |Medium |   |
 |393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)| [Go](./algorithms/p393/393.go) |Medium |   |
-|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence)| [Go](./algorithms/p392/392.go) |Medium |   |
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence)| [Go](./algorithms/p392/392.go) |Medium | :heavy_check_mark:  |
 |391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)| [Go](./algorithms/p391/391.go) |Hard | :heavy_check_mark: |
 |390|[Elimination Game](https://leetcode.com/problems/elimination-game)| [Go](./algorithms/p390/390.go) |Medium |   |
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference)| [Go](./algorithms/p389/389.go) |Easy |   |
@@ -202,7 +202,7 @@
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)| [Go](./algorithms/p371/371.go) |Easy |   |
 |370|[Range Addition](https://leetcode.com/problems/range-addition)| [Go](./algorithms/p370/370.go) |Medium |   |
 |369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list)| [Go](./algorithms/p369/369.go) |Medium |   |
-|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset)| [Go](./algorithms/p368/368.go) |Medium |   |
+|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset)| [Go](./algorithms/p368/368.go) |Medium |  :heavy_check_mark: |
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)| [Go](./algorithms/p367/367.go) |Easy |   |
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree)| [Go](./algorithms/p366/366.go) |Medium |   |
 |365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)| [Go](./algorithms/p365/365.go) |Medium |   |
