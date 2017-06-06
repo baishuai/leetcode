@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 268/543
+完成进度 270/543
 
 
 | # | Title | Solution | Difficulty | Finshed |
@@ -44,7 +44,7 @@
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall)| [Go](./algorithms/p554/554.go) |Medium |   |
 |553|[Optimal Division](https://leetcode.com/problems/optimal-division)| [Go](./algorithms/p553/553.go) |Medium |   |
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii)| [Go](./algorithms/p552/552.go) |Hard | :heavy_check_mark: |
-|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i)| [Go](./algorithms/p551/551.go) |Easy |   |
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i)| [Go](./algorithms/p551/551.go) |Easy |  :heavy_check_mark:  |
 |549|[Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii)| [Go](./algorithms/p549/549.go) |Medium |   |
 |548|[Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum)| [Go](./algorithms/p548/548.go) |Medium |   |
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles)| [Go](./algorithms/p547/547.go) |Medium | :heavy_check_mark: |
@@ -113,7 +113,7 @@
 |471|[Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)| [Go](./algorithms/p471/471.go) |Hard |   |
 |469|[Convex Polygon](https://leetcode.com/problems/convex-polygon)| [Go](./algorithms/p469/469.go) |Medium |   |
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)| [Go](./algorithms/p468/468.go) |Medium | :heavy_check_mark: |
-|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)| [Go](./algorithms/p467/467.go) |Medium |   |
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)| [Go](./algorithms/p467/467.go) |Medium | :heavy_check_mark: |
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)| [Go](./algorithms/p466/466.go) |Hard | :heavy_check_mark: |
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)| [Go](./algorithms/p465/465.go) |Hard |   |
 |464|[Can I Win](https://leetcode.com/problems/can-i-win)| [Go](./algorithms/p464/464.go) |Medium |   |
@@ -194,7 +194,7 @@
 |379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory)| [Go](./algorithms/p379/379.go) |Medium |   |
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)| [Go](./algorithms/p378/378.go) |Medium |   |
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv)| [Go](./algorithms/p377/377.go) |Medium | :heavy_check_mark: |
-|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence)| [Go](./algorithms/p376/376.go) |Medium |   |
+|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence)| [Go](./algorithms/p376/376.go) |Medium | :heavy_check_mark:  |
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)| [Go](./algorithms/p375/375.go) |Medium | :heavy_check_mark: |
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)| [Go](./algorithms/p374/374.go) |Easy |   |
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)| [Go](./algorithms/p373/373.go) |Medium |   |

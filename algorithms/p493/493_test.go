@@ -1,20 +1,24 @@
 package p493
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test0(t *testing.T) {
 	assert.Equal(t, 2, reversePairs([]int{1, 3, 2, 3, 1}))
+	assert.Equal(t, 2, reversePairsSlow([]int{1, 3, 2, 3, 1}))
 }
 
 func Test1(t *testing.T) {
 	assert.Equal(t, 3, reversePairs([]int{2, 4, 3, 5, 1}))
+	assert.Equal(t, 3, reversePairsSlow([]int{2, 4, 3, 5, 1}))
 }
 
 func Test2(t *testing.T) {
 	assert.Equal(t, 1, reversePairs([]int{-5, -5}))
+	assert.Equal(t, 1, reversePairsSlow([]int{-5, -5}))
 }
 
 func Test3(t *testing.T) {

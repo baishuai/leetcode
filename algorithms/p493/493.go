@@ -83,6 +83,16 @@ func (t *bsTree) Insert(v int) {
 	}
 }
 
+func reversePairsSlow(nums []int) int {
+	res := 0
+	bst := bsTree{}
+	for i := len(nums) - 1; i >= 0; i-- {
+		res += bst.Search(nums[i])
+		bst.Insert(nums[i] * 2)
+	}
+	return res
+}
+
 func mergeSort(nums, helper []int, start, end int) int {
 	if start >= end {
 		return 0
