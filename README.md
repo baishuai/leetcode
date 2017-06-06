@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 270/543
+完成进度 273/543
 
 
 | # | Title | Solution | Difficulty | Finshed |
@@ -19,7 +19,7 @@
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence)| [Go](./algorithms/p594/594.go) |Easy |   |
 |593|[Valid Square](https://leetcode.com/problems/valid-square)| [Go](./algorithms/p593/593.go) |Medium |   |
 |592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction)| [Go](./algorithms/p592/592.go) |Medium |   |
-|591|[Tag Validator](https://leetcode.com/problems/tag-validator)| [Go](./algorithms/p591/591.go) |Hard |   |
+|591|[Tag Validator](https://leetcode.com/problems/tag-validator)| [Go](./algorithms/p591/591.go) |Hard | :heavy_check_mark:  |
 |588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system)| [Go](./algorithms/p588/588.go) |Hard | :heavy_check_mark: |
 |587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence)| [Go](./algorithms/p587/587.go) |Hard | :heavy_check_mark: |
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)| [Go](./algorithms/p583/583.go) |Medium |   |
@@ -97,7 +97,7 @@
 |490|[The Maze](https://leetcode.com/problems/the-maze)| [Go](./algorithms/p490/490.go) |Medium |   |
 |488|[Zuma Game](https://leetcode.com/problems/zuma-game)| [Go](./algorithms/p488/488.go) |Hard | :heavy_check_mark: |
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii)| [Go](./algorithms/p487/487.go) |Medium |   |
-|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner)| [Go](./algorithms/p486/486.go) |Medium |   |
+|486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner)| [Go](./algorithms/p486/486.go) |Medium | :heavy_check_mark:  |
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)| [Go](./algorithms/p485/485.go) |Easy |   |
 |484|[Find Permutation](https://leetcode.com/problems/find-permutation)| [Go](./algorithms/p484/484.go) |Medium |   |
 |483|[Smallest Good Base](https://leetcode.com/problems/smallest-good-base)| [Go](./algorithms/p483/483.go) |Hard | :heavy_check_mark: |
