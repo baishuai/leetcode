@@ -116,7 +116,7 @@
 |467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)| [Go](./algorithms/p467/467.go) |Medium | :heavy_check_mark: |
 |466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)| [Go](./algorithms/p466/466.go) |Hard | :heavy_check_mark: |
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)| [Go](./algorithms/p465/465.go) |Hard |   |
-|464|[Can I Win](https://leetcode.com/problems/can-i-win)| [Go](./algorithms/p464/464.go) |Medium |   |
+|464|[Can I Win](https://leetcode.com/problems/can-i-win)| [Go](./algorithms/p464/464.go) |Medium | :heavy_check_mark:  |
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)| [Go](./algorithms/p463/463.go) |Easy |   |
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)| [Go](./algorithms/p462/462.go) |Medium |   |
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)| [Go](./algorithms/p461/461.go) |Easy | :heavy_check_mark: |
