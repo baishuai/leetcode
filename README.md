@@ -5,7 +5,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 273/543
+完成进度 275/543
 
 
 | # | Title | Solution | Difficulty | Finshed |
@@ -73,7 +73,7 @@
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i)| [Go](./algorithms/p521/521.go) |Easy |   |
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital)| [Go](./algorithms/p520/520.go) |Easy |   |
 |517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines)| [Go](./algorithms/p517/517.go) |Hard | :heavy_check_mark: |
-|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)| [Go](./algorithms/p516/516.go) |Medium |   |
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)| [Go](./algorithms/p516/516.go) |Medium | :heavy_check_mark:  |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row)| [Go](./algorithms/p515/515.go) |Medium |   |
 |514|[Freedom Trail](https://leetcode.com/problems/freedom-trail)| [Go](./algorithms/p514/514.go) |Hard | :heavy_check_mark: |
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value)| [Go](./algorithms/p513/513.go) |Medium |   |
