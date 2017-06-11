@@ -1,0 +1,41 @@
+package p611
+
+import (
+	"fmt"
+	"sort"
+)
+
+/**
+Given an array consists of non-negative integers, your task is to count the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+
+Example 1:
+Input: [2,2,3,4]
+Output: 3
+Explanation:
+Valid combinations are:
+2,3,4 (using the first 2)
+2,3,4 (using the second 2)
+2,2,3
+Note:
+The length of the given array won't exceed 1000.
+The integers in the given array are in the range of [0, 1000].
+*/
+
+func isValid(a, b, c int) bool {
+	return a > 0 && b > 0 && c > 0 && a+b > c && a+c > b && b+c > a
+}
+
+func triangleNumber(nums []int) int {
+
+	sort.Ints(nums)
+
+	cnt := 0
+	for i := 0; i < len(nums)-2; i++ {
+		for j := i + 1; j < len(nums)-1; j++ {
+			local := sort.SearchInts(nums[j:], nums[i]+nums[j])
+			fmt.Println(j, local)
+			cnt += local - 1
+		}
+	}
+	return cnt
+}
