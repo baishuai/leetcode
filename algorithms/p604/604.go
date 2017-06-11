@@ -1,7 +1,5 @@
 package p604
 
-import "fmt"
-
 /**
 Design and implement a data structure for a compressed string iterator. It should support the following operations: next and hasNext.
 
@@ -31,14 +29,12 @@ func Constructor(compressedString string) StringIterator {
 		i--
 		cnt = append(cnt, num)
 	}
-	fmt.Println(string(bs))
 	return StringIterator{bs, cnt}
 }
 
 func (this *StringIterator) Next() byte {
 	if len(this.bs) > 0 {
 		t := this.bs[0]
-		fmt.Println(t, string(t))
 		this.cnt[0]--
 		if this.cnt[0] == 0 {
 			this.cnt = this.cnt[1:]

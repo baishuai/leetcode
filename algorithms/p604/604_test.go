@@ -12,11 +12,11 @@ func Test0(t *testing.T) {
 	assert.Equal(t, byte('e'), iterator.Next()) // return 'e'
 	assert.Equal(t, byte('e'), iterator.Next()) // return 'e'
 	assert.Equal(t, byte('t'), iterator.Next()) // return 't'
-	t.Log(iterator.Next())                      // return 'C'
-	t.Log(iterator.Next())                      // return 'o'
-	t.Log(iterator.Next())                      // return 'd'
-	t.Log(iterator.HasNext())                   // return true
-	t.Log(iterator.Next())                      // return 'e'
-	t.Log(iterator.HasNext())                   // return false
-	t.Log(iterator.Next())                      // return ' '
+	assert.Equal(t, byte('C'), iterator.Next()) // return 'C'
+	assert.Equal(t, byte('o'), iterator.Next()) // return 'o'
+	assert.Equal(t, byte('d'), iterator.Next()) // return 'd'
+	assert.Equal(t, true, iterator.HasNext())   // return true
+	assert.Equal(t, byte('e'), iterator.Next()) // return 'e'
+	assert.Equal(t, false, iterator.HasNext())  // return false
+	assert.Equal(t, byte(' '), iterator.Next()) // return ' '
 }

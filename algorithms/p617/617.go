@@ -47,9 +47,6 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 }
 
 func mergeNode(dst, n1, n2 *TreeNode) {
-	if n1 == nil && n2 == nil {
-		return
-	}
 	dst.Val = 0
 	if n1 != nil {
 		dst.Val += n1.Val
@@ -77,24 +74,4 @@ func mergeNode(dst, n1, n2 *TreeNode) {
 		dst.Right = new(TreeNode)
 		mergeNode(dst.Right, r1, r2)
 	}
-
-}
-
-func isSymmetric(root *TreeNode) bool {
-	if root == nil {
-		return true
-	}
-	return isSymmetricLR(root.Left, root.Right)
-}
-
-func isSymmetricLR(left, right *TreeNode) bool {
-	if left == nil && right == nil {
-		return true
-	}
-	if (left == nil) != (right == nil) {
-		return false
-	}
-	return (left.Val == right.Val) &&
-		isSymmetricLR(left.Left, right.Right) &&
-		isSymmetricLR(left.Right, right.Left)
 }

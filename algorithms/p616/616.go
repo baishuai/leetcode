@@ -20,7 +20,7 @@ s = "aaabbcc"
 dict = ["aaa","aab","bc"]
 Output:
 "<b>aaabbc</b>c"
- */
+*/
 
 type Trie struct {
 	root *TrieNode
@@ -42,46 +42,37 @@ func Constructor() Trie {
 func (this *Trie) Insert(word string) {
 	cur := this.root
 	for _, v := range []byte(word) {
-		if cur.children[v-'a'] == nil {
-			cur.children[v-'a'] = &TrieNode{children: make(map[byte]*TrieNode)}
+		if cur.children[v] == nil {
+			cur.children[v] = &TrieNode{children: make(map[byte]*TrieNode)}
 		}
-		cur = cur.children[v-'a']
+		cur = cur.children[v]
 	}
 	cur.isWord = true
 	cur.word = word
 }
 
-/** Returns if the word is in the trie. */
-func (this *Trie) Search(word string) bool {
-	cur := this.find(word)
-	return cur != nil && cur.isWord
-}
-
 /** Returns if there is any word in the trie that starts with the given prefix. */
-func (this *Trie) StartsWith(prefix string) int {
+func (this *Trie) StartsWith(prefix []byte) int {
 	node := this.find(prefix)
 	if node == nil {
+		//fmt.Println("find", prefix, 0)
 		return 0
-		fmt.Println("find", prefix, 0)
-
 	}
-	fmt.Println("find", prefix, len(node.word))
-
 	return len(node.word)
 }
 
-func (this *Trie) find(key string) *TrieNode {
+func (this *Trie) find(key []byte) *TrieNode {
 	cur := this.root
 
 	var f *TrieNode
-	for _, v := range []byte(key) {
+	for _, v := range key {
+		cur = cur.children[v]
 		if cur == nil {
 			break
 		}
 		if cur.isWord {
 			f = cur
 		}
-		cur = cur.children[v-'a']
 	}
 	return f
 }
@@ -92,51 +83,37 @@ func addBoldTag(s string, dict []string) string {
 	for _, w := range dict {
 		wordTrie.Insert(w)
 	}
-
+	ss := []byte(s)
 	buf := new(bytes.Buffer)
 	for i := 0; i < len(s); i++ {
 
 		end := i
-
-		j := i + 100
-		if j > len(s) {
-			j = len(s)
-		}
-		end += wordTrie.StartsWith(s[i:j])
-
+		end += wordTrie.StartsWith(ss[i:])
 		if end > i {
 			buf.WriteString("<b>")
-			fmt.Println("loop end", end)
 		}
 		for end > i {
 			c := i + 1
 			for c < len(s) && c < end {
-				j = c + 100
-				if j > len(s) {
-					j = len(s)
-				}
-				newEnd := c + wordTrie.StartsWith(s[c:j])
-				fmt.Println("newend", newEnd, c)
+				newEnd := c + wordTrie.StartsWith(ss[c:])
 				if newEnd > end {
 					end = newEnd
 				}
 				c++
-				fmt.Println("loop c", end)
 			}
-			if end >= len(s) || wordTrie.StartsWith(s[end:]) == 0 {
+			if end >= len(s) || wordTrie.StartsWith(ss[end:]) == 0 {
 				buf.WriteString(s[i:end])
 				buf.WriteString("</b>")
 				i = end - 1
 				break
 			} else {
-				fmt.Println(wordTrie.StartsWith(s[end:]))
-				end += wordTrie.StartsWith(s[end:])
+				fmt.Println(wordTrie.StartsWith(ss[end:]))
+				end += wordTrie.StartsWith(ss[end:])
 			}
 		}
 		if end == i {
 			buf.WriteByte(s[i])
 		}
-
 	}
 	return buf.String()
 }

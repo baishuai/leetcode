@@ -21,14 +21,9 @@ The length of the given array won't exceed 1000.
 The integers in the given array are in the range of [0, 1000].
 */
 
-func isValid(a, b, c int) bool {
-	return a > 0 && b > 0 && c > 0 && a+b > c && a+c > b && b+c > a
-}
-
 func triangleNumber(nums []int) int {
 
 	sort.Ints(nums)
-
 	cnt := 0
 	for i := 0; i < len(nums)-2; i++ {
 		for j := i + 1; j < len(nums)-1; j++ {
