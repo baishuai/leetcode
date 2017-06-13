@@ -57,7 +57,7 @@ func gameOfLife(board [][]int) {
 
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
-			board[i][j] >>= 1;
+			board[i][j] >>= 1
 		}
 	}
 }

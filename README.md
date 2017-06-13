@@ -4,7 +4,7 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 281/543
+完成进度 286/543
 
 | # | Title | Solution | Difficulty | Finshed |
 |---| ----- | -------- | ---------- | ---- |
@@ -154,7 +154,7 @@
 |417 |[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|  | Medium |  |
 |416 |[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)|[Go](./algorithms/p416/416.go) | Medium | :heavy_check_mark: |
 |415 |[Add Strings](https://leetcode.com/problems/add-strings)|  | Easy |  |
-|414 |[Third Maximum Number](https://leetcode.com/problems/third-maximum-number)|  | Easy |  |
+|414 |[Third Maximum Number](https://leetcode.com/problems/third-maximum-number)|[Go](./algorithms/p414/414.go) | Easy | :heavy_check_mark: |
 |413 |[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices)|[Go](./algorithms/p413/413.go) | Medium | :heavy_check_mark: |
 |412 |[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|  | Easy |  |
 |411 |[Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation)|  | Hard |  |
@@ -172,7 +172,7 @@
 |399 |[Evaluate Division](https://leetcode.com/problems/evaluate-division)|  | Medium |  |
 |398 |[Random Pick Index](https://leetcode.com/problems/random-pick-index)|  | Medium |  |
 |397 |[Integer Replacement](https://leetcode.com/problems/integer-replacement)|  | Medium |  |
-|396 |[Rotate Function](https://leetcode.com/problems/rotate-function)|  | Medium |  |
+|396 |[Rotate Function](https://leetcode.com/problems/rotate-function)|[Go](./algorithms/p396/396.go) | Medium | :heavy_check_mark: |
 |395 |[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)|  | Medium |  |
 |394 |[Decode String](https://leetcode.com/problems/decode-string)|  | Medium |  |
 |393 |[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)|  | Medium |  |
@@ -203,7 +203,7 @@
 |368 |[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset)|[Go](./algorithms/p368/368.go) | Medium | :heavy_check_mark: |
 |367 |[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)|  | Easy |  |
 |366 |[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree)|  | Medium |  |
-|365 |[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|  | Medium |  |
+|365 |[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|[Go](./algorithms/p365/365.go) | Medium | :heavy_check_mark: |
 |364 |[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|  | Medium |  |
 |363 |[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k)|[Go](./algorithms/p363/363.go) | Hard | :heavy_check_mark: |
 |362 |[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|  | Medium |  |
@@ -339,7 +339,7 @@
 |231 |[Power of Two](https://leetcode.com/problems/power-of-two)|  | Easy |  |
 |230 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|  | Medium |  |
 |229 |[Majority Element II](https://leetcode.com/problems/majority-element-ii)|  | Medium |  |
-|228 |[Summary Ranges](https://leetcode.com/problems/summary-ranges)|  | Medium |  |
+|228 |[Summary Ranges](https://leetcode.com/problems/summary-ranges)|[Go](./algorithms/p228/228.go) | Medium | :heavy_check_mark: |
 |227 |[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[Go](./algorithms/p227/227.go) | Medium | :heavy_check_mark: |
 |226 |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|  | Easy |  |
 |225 |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)|[Go](./algorithms/p225/225.go) | Easy | :heavy_check_mark: |
@@ -371,7 +371,7 @@
 |199 |[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[Go](./algorithms/p199/199.go) | Medium | :heavy_check_mark: |
 |198 |[House Robber](https://leetcode.com/problems/house-robber)|[Go](./algorithms/p198/198.go) | Easy | :heavy_check_mark: |
 |191 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[Python](./algorithms/p191/191.py) | Easy | :heavy_check_mark: |
-|190 |[Reverse Bits](https://leetcode.com/problems/reverse-bits)|  | Easy |  |
+|190 |[Reverse Bits](https://leetcode.com/problems/reverse-bits)|[Python](./algorithms/p190/190.py) | Easy | :heavy_check_mark: |
 |189 |[Rotate Array](https://leetcode.com/problems/rotate-array)|[Go](./algorithms/p189/189.go) | Easy | :heavy_check_mark: |
 |188 |[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[Go](./algorithms/p188/188.go) | Hard | :heavy_check_mark: |
 |187 |[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Go](./algorithms/p187/187.go) | Medium | :heavy_check_mark: |
