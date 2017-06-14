@@ -11,7 +11,7 @@ levels = {1: "Easy", 2: "Medium", 3: "Hard"}
 
 py_ans = [297, 278, 202, 191, 160, 151, 138, 117, 116, 190]
 
-filename = "leetcode.com.html"
+filename = "leetcode.com.json"
 
 shutil.copyfile("README_HEAD.md", "README.md")
 
