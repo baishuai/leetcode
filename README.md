@@ -4,13 +4,17 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 286/543
+完成进度 294/547
 
 | # | Title | Solution | Difficulty | Finshed |
 |---| ----- | -------- | ---------- | ---- |
+|617 |[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[Go](./algorithms/p617/617.go) | Easy | :heavy_check_mark: |
+|616 |[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string)|  | Medium |  |
+|611 |[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number)|[Go](./algorithms/p611/611.go) | Medium | :heavy_check_mark: |
 |609 |[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system)|[Go](./algorithms/p609/609.go) | Medium | :heavy_check_mark: |
 |606 |[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree)|[Go](./algorithms/p606/606.go) | Easy | :heavy_check_mark: |
 |605 |[Can Place Flowers](https://leetcode.com/problems/can-place-flowers)|[Go](./algorithms/p605/605.go) | Easy | :heavy_check_mark: |
+|604 |[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator)|  | Easy |  |
 |600 |[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones)|[Go](./algorithms/p600/600.go) | Hard | :heavy_check_mark: |
 |599 |[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists)|  | Easy |  |
 |598 |[Range Addition II](https://leetcode.com/problems/range-addition-ii)|  | Easy |  |
@@ -168,7 +172,7 @@
 |403 |[Frog Jump](https://leetcode.com/problems/frog-jump)|[Go](./algorithms/p403/403.go) | Hard | :heavy_check_mark: |
 |402 |[Remove K Digits](https://leetcode.com/problems/remove-k-digits)|[Go](./algorithms/p402/402.go) | Medium | :heavy_check_mark: |
 |401 |[Binary Watch](https://leetcode.com/problems/binary-watch)|  | Easy |  |
-|400 |[Nth Digit](https://leetcode.com/problems/nth-digit)|  | Easy |  |
+|400 |[Nth Digit](https://leetcode.com/problems/nth-digit)|[Go](./algorithms/p400/400.go) | Easy | :heavy_check_mark: |
 |399 |[Evaluate Division](https://leetcode.com/problems/evaluate-division)|  | Medium |  |
 |398 |[Random Pick Index](https://leetcode.com/problems/random-pick-index)|  | Medium |  |
 |397 |[Integer Replacement](https://leetcode.com/problems/integer-replacement)|  | Medium |  |
@@ -213,7 +217,7 @@
 |358 |[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)|  | Hard |  |
 |357 |[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)|[Go](./algorithms/p357/357.go) | Medium | :heavy_check_mark: |
 |356 |[Line Reflection](https://leetcode.com/problems/line-reflection)|  | Medium |  |
-|355 |[Design Twitter](https://leetcode.com/problems/design-twitter)|  | Medium |  |
+|355 |[Design Twitter](https://leetcode.com/problems/design-twitter)|[Go](./algorithms/p355/355.go) | Medium | :heavy_check_mark: |
 |354 |[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes)|[Go](./algorithms/p354/354.go) | Hard | :heavy_check_mark: |
 |353 |[Design Snake Game](https://leetcode.com/problems/design-snake-game)|  | Medium |  |
 |352 |[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals)|[Go](./algorithms/p352/352.go) | Hard | :heavy_check_mark: |
@@ -278,7 +282,7 @@
 |293 |[Flip Game](https://leetcode.com/problems/flip-game)|  | Easy |  |
 |292 |[Nim Game](https://leetcode.com/problems/nim-game)|  | Easy |  |
 |291 |[Word Pattern II](https://leetcode.com/problems/word-pattern-ii)|  | Hard |  |
-|290 |[Word Pattern](https://leetcode.com/problems/word-pattern)|  | Easy |  |
+|290 |[Word Pattern](https://leetcode.com/problems/word-pattern)|[Go](./algorithms/p290/290.go) | Easy | :heavy_check_mark: |
 |289 |[Game of Life](https://leetcode.com/problems/game-of-life)|[Go](./algorithms/p289/289.go) | Medium | :heavy_check_mark: |
 |288 |[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation)|  | Medium |  |
 |287 |[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|  | Medium |  |
@@ -294,7 +298,7 @@
 |277 |[Find the Celebrity](https://leetcode.com/problems/find-the-celebrity)|  | Medium |  |
 |276 |[Paint Fence](https://leetcode.com/problems/paint-fence)|  | Easy |  |
 |275 |[H-Index II](https://leetcode.com/problems/h-index-ii)|  | Medium |  |
-|274 |[H-Index](https://leetcode.com/problems/h-index)|  | Medium |  |
+|274 |[H-Index](https://leetcode.com/problems/h-index)|[Go](./algorithms/p274/274.go) | Medium | :heavy_check_mark: |
 |273 |[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[Go](./algorithms/p273/273.go) | Hard | :heavy_check_mark: |
 |272 |[Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii)|  | Hard |  |
 |271 |[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings)|  | Medium |  |
@@ -336,7 +340,7 @@
 |234 |[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|  | Easy |  |
 |233 |[Number of Digit One](https://leetcode.com/problems/number-of-digit-one)|[Go](./algorithms/p233/233.go) | Hard | :heavy_check_mark: |
 |232 |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|  | Easy |  |
-|231 |[Power of Two](https://leetcode.com/problems/power-of-two)|  | Easy |  |
+|231 |[Power of Two](https://leetcode.com/problems/power-of-two)|[Go](./algorithms/p231/231.go) | Easy | :heavy_check_mark: |
 |230 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|  | Medium |  |
 |229 |[Majority Element II](https://leetcode.com/problems/majority-element-ii)|  | Medium |  |
 |228 |[Summary Ranges](https://leetcode.com/problems/summary-ranges)|[Go](./algorithms/p228/228.go) | Medium | :heavy_check_mark: |
@@ -344,7 +348,7 @@
 |226 |[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|  | Easy |  |
 |225 |[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)|[Go](./algorithms/p225/225.go) | Easy | :heavy_check_mark: |
 |224 |[Basic Calculator](https://leetcode.com/problems/basic-calculator)|[Go](./algorithms/p224/224.go) | Hard | :heavy_check_mark: |
-|223 |[Rectangle Area](https://leetcode.com/problems/rectangle-area)|  | Medium |  |
+|223 |[Rectangle Area](https://leetcode.com/problems/rectangle-area)|[Go](./algorithms/p223/223.go) | Medium | :heavy_check_mark: |
 |222 |[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)|  | Medium |  |
 |221 |[Maximal Square](https://leetcode.com/problems/maximal-square)|[Go](./algorithms/p221/221.go) | Medium | :heavy_check_mark: |
 |220 |[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii)|[Go](./algorithms/p220/220.go) | Medium | :heavy_check_mark: |
