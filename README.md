@@ -4,10 +4,14 @@
 
 [![codecov](https://codecov.io/gh/baishuai/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/baishuai/leetcode)
 
-完成进度 294/547
+完成进度 298/551
 
 | # | Title | Solution | Difficulty | Finshed |
 |---| ----- | -------- | ---------- | ---- |
+|625 |[Minimum Factorization](https://leetcode.com/problems/minimum-factorization)|[Go](./algorithms/p625/625.go)  |Medium |:heavy_check_mark: |
+|624 |[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays)|[Go](./algorithms/p624/624.go)  |Easy |:heavy_check_mark: |
+|623 |[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree)|[Go](./algorithms/p623/623.go)  |Medium |:heavy_check_mark: |
+|621 |[Task Scheduler](https://leetcode.com/problems/task-scheduler)| | Medium | |
 |617 |[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[Go](./algorithms/p617/617.go)  |Easy |:heavy_check_mark: |
 |616 |[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string)| | Medium | |
 |611 |[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number)|[Go](./algorithms/p611/611.go)  |Medium |:heavy_check_mark: |
@@ -417,7 +421,7 @@
 |141 |[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[Python](./algorithms/p141/141.py)  |Easy |:heavy_check_mark: |
 |140 |[Word Break II](https://leetcode.com/problems/word-break-ii)|[Go](./algorithms/p140/140.go)  |Hard |:heavy_check_mark: |
 |139 |[Word Break](https://leetcode.com/problems/word-break)|[Go](./algorithms/p139/139.go)  |Medium |:heavy_check_mark: |
-|138 |[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)| | Medium | |
+|138 |[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[Python](./algorithms/p138/138.py)  |Medium |:heavy_check_mark: |
 |137 |[Single Number II](https://leetcode.com/problems/single-number-ii)|[Go](./algorithms/p137/137.go)  |Medium |:heavy_check_mark: |
 |136 |[Single Number](https://leetcode.com/problems/single-number)|[Go](./algorithms/p136/136.go)  |Easy |:heavy_check_mark: |
 |135 |[Candy](https://leetcode.com/problems/candy)|[Go](./algorithms/p135/135.go)  |Hard |:heavy_check_mark: |
