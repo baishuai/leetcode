@@ -2,3 +2,4 @@ algorithms/main
 algorithms/vendor/
 vendor/
 .idea/
+cmake-build-debug/

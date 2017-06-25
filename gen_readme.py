@@ -7,7 +7,7 @@ import shutil
 
 # url = "https://leetcode.com/api/problems/algorithms/"
 
-SUFFIXES = {'.go': 'Go', '.py': 'Python', '.java': 'Java'}
+SUFFIXES = {'.go': 'Go', '.py': 'Python', '.java': 'Java', '.hpp': 'cpp'}
 
 
 def type_and_file(idx):
