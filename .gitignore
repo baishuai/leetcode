@@ -1,5 +1,5 @@
 algorithms/main
 algorithms/vendor/
-vendor/
 .idea/
+lib/
 cmake-build-debug/
