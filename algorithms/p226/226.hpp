@@ -35,16 +35,9 @@ but you can’t invert a binary tree on a whiteboard so fuck off.
 #include <vector>
 #include <unordered_map>
 
+#include "../common/leetcode.hpp"
+
 using namespace std;
-
-//Definition for a binary tree node.
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-
-    explicit TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
 
 class Solution {
 public:
