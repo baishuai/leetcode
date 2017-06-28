@@ -6,7 +6,7 @@
 #include <gtest/gtest.h>
 
 
-TEST(p395, example) {
+TEST(p344, example) {
     auto s = Solution();
     ASSERT_EQ("olleh", s.reverseString("hello"));
 }

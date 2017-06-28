@@ -2,6 +2,7 @@
 #include <queue>
 #include <algorithm>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -17,12 +18,12 @@ private:
     vector<vector<int>> data;
     vector<vector<vector<rect>>> deps;
 
-    int calc(int r, int c) {
+    int calc(int row, int c) {
         int sum = 0;
-        for (rect r : this->deps[r][c]) {
+        for (rect r : this->deps[row][c]) {
             for (int i = r.top; i <= r.bottom; ++i) {
                 for (int j = r.left; j <= r.right; ++j) {
-                    sum += this->get(i + 1, j + 'A');
+                    sum += this->get(i + 1, (char) (j + 'A'));
                 }
             }
         }
@@ -31,8 +32,10 @@ private:
 
 public:
     Excel(int H, char W)
-            : data(vector<vector<int>>(H, vector<int>(W - 'A' + 1))),
-              deps(vector<vector<vector<rect>>>(H, vector<vector<rect>>(W - 'A' + 1))) {
+            : data(std::vector<vector<int>>((unsigned long) H,
+                                            vector<int>((unsigned long) (W - 'A' + 1)))),
+              deps(std::vector<vector<vector<rect>>>((unsigned long) H,
+                                                     vector<vector<rect>>((unsigned long) (W - 'A' + 1)))) {
 
     }
 

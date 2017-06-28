@@ -22,8 +22,7 @@ public:
         }
         auto n = matrix[0].size();
 
-        vector<int> res;
-        res.resize(m * n);
+        vector<int> res(m * n);
         int id = 0;
         for (int i = 0; i < m + n - 1; ++i) {
             int lb = max(0, (int) (i - n + 1));
