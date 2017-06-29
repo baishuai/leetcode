@@ -1,6 +1,5 @@
 algorithms/main
 algorithms/vendor/
 .idea/
-lib/
 cmake-build-debug/
 leetcode.com.json
