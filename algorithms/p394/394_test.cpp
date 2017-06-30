@@ -13,8 +13,7 @@ TEST(p394, example) {
     ASSERT_EQ("abcabccdcdcdef", s.decodeString("2[abc]3[cd]ef"));
 }
 
-TEST(p394, run1) {
+TEST(p394, run2) {
     Solution s;
-
-    ASSERT_EQ("", s.decodeString("2[ab3[cd]]4[xy]"));
+    ASSERT_EQ("aabbbbbbaabbbbbb", s.decodeString("2[aa3[bb]]1[]"));
 }

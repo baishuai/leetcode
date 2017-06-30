@@ -51,20 +51,20 @@ public:
                 while (isdigit(s[idx])) {
                     cnt = cnt * 10 + s[idx++] - '0';
                 }
-                cntStack.push(cnt);
+                cntStack.emplace(cnt);
             } else if (s[idx] == '[') {
-                strStack.push(move(res));
+                strStack.emplace(res);
                 res.clear();
                 idx++;
             } else if (s[idx] == ']') {
                 string &tmp = strStack.top();
-                strStack.pop();
                 int repeat = cntStack.top();
                 cntStack.pop();
-                while (repeat-- > 0) {
-                    tmp.append(res);
-                }
                 res.swap(tmp);
+                while (repeat-- > 0) {
+                    res.append(tmp);
+                }
+                strStack.pop();
                 idx++;
             } else {
                 res.push_back(s[idx++]);
