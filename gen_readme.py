@@ -11,10 +11,10 @@ SUFFIXES = {'.go': 'Go', '.py': 'Python', '.java': 'Java', '.hpp': 'cpp'}
 
 
 def type_and_file(idx):
-    '''
+    """
     return lang type and file path of problems idx
     if find nothing, return None
-    '''
+    """
     res = {}
     subdir_name = 'p' + str(idx).zfill(3)
     print('find idx', './algorithms/' + subdir_name)
@@ -32,9 +32,9 @@ def type_and_file(idx):
 
 
 def parse(filename, out):
-    '''
+    """
     parse items in filename, and write to out
-    '''
+    """
     levels = {1: "Easy", 2: "Medium", 3: "Hard"}
     with open(filename) as file:
         j = json.load(file)
@@ -65,7 +65,9 @@ def parse(filename, out):
 
 
 def main():
-    '''main function'''
+    """
+    main function
+    """
     filename = "leetcode.com.json"
     shutil.copyfile("README_HEAD.md", "README.md")
     with open("README.md", 'a') as out:

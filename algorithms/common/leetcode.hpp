@@ -31,5 +31,6 @@ struct ListNode {
     explicit ListNode(int x) : val(x), next(NULL) {}
 };
 
+void releaseList(ListNode *head, ListNode *entry = nullptr);
 
 #endif //LEETCODE_LEETCODE_HPP
