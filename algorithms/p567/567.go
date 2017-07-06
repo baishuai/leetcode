@@ -12,14 +12,14 @@ Explanation: s2 contains one permutation of s1 ("ba").
 Example 2:
 Input:s1= "ab" s2 = "eidboaoo"
 Output: False
- */
+*/
 
 // two pointer
 
 func checkInclusion(s1 string, s2 string) bool {
 	charCnt := make([]int, 26)
 	for i := 0; i < len(s1); i++ {
-		charCnt[s1[i]-'a'] ++
+		charCnt[s1[i]-'a']++
 	}
 	cnt := len(s1)
 
@@ -28,7 +28,7 @@ func checkInclusion(s1 string, s2 string) bool {
 	for j < len(s2) {
 		c := s2[j] - 'a'
 		if charCnt[c] > 0 {
-			charCnt[c] --
+			charCnt[c]--
 			cnt--
 			if cnt == 0 {
 				break
