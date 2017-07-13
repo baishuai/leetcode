@@ -6,7 +6,7 @@ func leastInterval(tasks []byte, n int) int {
 
 	tasks26 := make([]int, 26)
 	for _, t := range tasks {
-		tasks26[t-'A'] ++
+		tasks26[t-'A']++
 	}
 
 	sort.Ints(tasks26)
