@@ -24,7 +24,6 @@ struct vinr {
         return value > rhs.value;
     }
 
-
     vinr(int value, int ridx) : value(value), ridx(ridx) {}
 };
 
