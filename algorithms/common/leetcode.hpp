@@ -31,6 +31,9 @@ struct ListNode {
     explicit ListNode(int x) : val(x), next(NULL) {}
 };
 
+
+bool equalList(ListNode *l1, ListNode *l2);
+
 void releaseList(ListNode *head, ListNode *entry = nullptr);
 
 #endif //LEETCODE_LEETCODE_HPP

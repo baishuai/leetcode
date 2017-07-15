@@ -23,6 +23,18 @@ void releaseTree(TreeNode *root) {
 }
 
 
+bool equalList(ListNode *l1, ListNode *l2) {
+    while (l1 != nullptr && l2 != nullptr) {
+        if (l1->val != l2->val) {
+            return false;
+        }
+        l1 = l1->next;
+        l2 = l2->next;
+    }
+    return (l1 == nullptr && l2 == nullptr);
+}
+
+
 void releaseList(ListNode *head, ListNode *entry) {
     while (head->next != nullptr) {
         ListNode *p = head;

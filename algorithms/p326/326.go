@@ -8,5 +8,5 @@ Could you do it without using any loop / recursion?
 */
 
 func isPowerOfThree(n int) bool {
-	return n > 0 && 1162261467%n == 0
+	return n > 0 && 10460353203/n*n == 10460353203
 }
