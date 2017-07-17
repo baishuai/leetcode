@@ -18,6 +18,8 @@ const cppmain = `
 #include <unordered_set>
 #include <set>
 #include <numeric>
+#include <stack>
+#include <string>
 
 using namespace std;
 
