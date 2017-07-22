@@ -17,3 +17,4 @@ set(SOURCE_FILES main_test.cpp ${SOURCE_ALG})
 
 add_executable(main_test ${SOURCE_FILES} ${HERDER_FILES})
 target_link_libraries(main_test gtest gtest_main)
+target_compile_options(main_test PRIVATE -fno-stack-protector)
