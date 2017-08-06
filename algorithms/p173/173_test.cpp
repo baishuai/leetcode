@@ -3,5 +3,5 @@
 #include <gtest/gtest.h>
 
 TEST(p173, example) {
-    Solution s;
+//    Solution s;
 }
