@@ -22,7 +22,7 @@ type TreeNode struct {
 }
 
 func recoverTree(root *TreeNode) {
-	// TODO Do not know why
+	// TODO Do not understand
 
 	var first, second, prev *TreeNode
 	var help func(node *TreeNode)
