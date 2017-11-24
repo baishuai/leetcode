@@ -10,5 +10,5 @@ func countSegments(s string) int {
 			cnt++
 		}
 	}
-	return cnt;
+	return cnt
 }

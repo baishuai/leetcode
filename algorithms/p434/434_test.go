@@ -1,14 +1,14 @@
 package p434
 
 import (
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestEmpty(t *testing.T) {
-	assert.Equal(t, 0, countSegments(""));
+	assert.Equal(t, 0, countSegments(""))
 }
 
 func TestE1(t *testing.T) {
-	assert.Equal(t,6, countSegments(", , , ,        a, eaefa"))
+	assert.Equal(t, 6, countSegments(", , , ,        a, eaefa"))
 }
