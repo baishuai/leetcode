@@ -36,13 +36,21 @@ bool equalList(ListNode *l1, ListNode *l2) {
 
 
 void releaseList(ListNode *head, ListNode *entry) {
+    if (entry != nullptr) {
+        while (head != entry) {
+            ListNode *p = head;
+            head = head->next;
+            p->next = nullptr;
+            delete p;
+        }
+        head = entry->next;
+        entry->next = nullptr;
+    }
     while (head->next != nullptr) {
         ListNode *p = head;
         head = head->next;
         p->next = nullptr;
         delete p;
     }
-    if (head != entry) {
-        delete head;
-    }
+    delete head;
 }

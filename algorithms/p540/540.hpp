@@ -37,8 +37,7 @@ public:
             int m = i + (j - i) / 2;
             if (m > 0 && nums[m - 1] == nums[m])
                 m = m - 1;
-            else if (m < nums.size() - 1 && nums[m + 1] == nums[m])
-                true;
+            else if (m < nums.size() - 1 && nums[m + 1] == nums[m]) {}
             else
                 return nums[m];
             if (m % 2 == 0)
