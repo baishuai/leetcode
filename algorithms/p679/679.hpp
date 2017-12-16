@@ -35,14 +35,14 @@ private:
     }
 
     bool valid(double a, double b, double c) {
-        return ((valid(a + b, c) || valid(a - b, c) || valid(a * b, c) || b && valid(a / b, c)) ||
-                (valid(a, b + c) || valid(a, b - c) || valid(a, b * c) || c && valid(a, b / c)));
+        return ((valid(a + b, c) || valid(a - b, c) || valid(a * b, c) || (b && valid(a / b, c))) ||
+                (valid(a, b + c) || valid(a, b - c) || valid(a, b * c) || (c && valid(a, b / c))));
 
     }
 
     bool valid(double a, double b) {
         return abs(a + b - 24.0) < 0.0001 || abs(a - b - 24.0) < 0.0001 || abs(a * b - 24.0) < 0.0001 ||
-               b && abs(a / b - 24.0) < 0.0001;
+               (b && abs(a / b - 24.0)) < 0.0001;
     }
 };
 
